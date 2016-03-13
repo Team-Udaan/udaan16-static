@@ -1,0 +1,184 @@
+<!doctype html>
+<!--suppress HtmlUnknownAnchorTarget -->
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyScrapers</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="js/vendor/handlebars.runtime.min.js"></script>
+  <!-- eventpage template -->
+  <script src="js/templates/eventpage.min.js"></script>
+
+  <script>
+    var eventData = [
+      {
+        "eventName": "Bob The Builder",
+        "round2Description": "",
+        "round1Description": "",
+        "participants": "Max 3",
+        "email": "utsavi1410@gmail.com",
+        "eventDescription": "It\u2019s not only how much load you can bare, keeping the balance is also important.\n\nParticipants in team have to build a crane mechanism in 3 hours using popsicle sticks. Thread will be provided for lifting weight. All materials will be provided by management. Crane lifting maximum weight will be declared as winners",
+        "contactInfo": "8980508325\n8460862215\n9725039877",
+        "fees": "60",
+        "round3Description": "",
+        "eventManagers": "Utsavi Pachhigar\nDeven Gajjar\nAnand Limbad"
+      },
+      {
+        "eventName": "Soil-a-Arch",
+        "round2Description": "",
+        "round1Description": "",
+        "participants": "2 or 3 ",
+        "email": "deepbhalani55@gmail.com",
+        "eventDescription": "Shape your idea with clay.\nParticipants have to build a soil arch using clay bricks. Bricks are to be formed by clay and on next day arch is to be made using that bricks. Weights will be kept on arch for testing and team whose arch is highest load bearing is winner",
+        "contactInfo": "9998140702\n7600120963\n7698767656",
+        "fees": "60",
+        "round3Description": "",
+        "eventManagers": "Deep Bhalani\nAmit Ratnani\nPratik Patel"
+      },
+      {
+        "eventName": "Real estate",
+        "round2Description": "Teams will be provided virtual money and they are supposed to bid on different properties shown on map (provided by management) and different conditions will be given like highway proposal, new bridge construction, legal documentation, etc.",
+        "round1Description": "Business quiz related to conditions, situations, future changes risks, etc. (Mostky related to civil engineering) ",
+        "participants": "2 or 3 ",
+        "email": "nrgohil9292@gmail.com",
+        "eventDescription": "Whole lot of common sense and civil engineering knowledge will lead you towards higher profit in real estate.",
+        "contactInfo": "9638453007\n9099025018",
+        "fees": "40",
+        "round3Description": "",
+        "eventManagers": "Nayan Gohil\nJenish Kamani"
+      },
+      {
+        "eventName": "Ignited Minds",
+        "round2Description": "Picture Perception of famous civil structures. Hint will be provided",
+        "round1Description": "Logical and conceptual MCQ questions based on basic civil engineering.",
+        "participants": "1 or 2 ",
+        "email": "nikhilchaudhri567@gmail.com",
+        "eventDescription": "Theory to practically. Here CPI is of no concern. How good you are at concept will be checked",
+        "contactInfo": "7600032638\n9925673896",
+        "fees": "30/person",
+        "round3Description": "Real life problems will be given and participants have to give most feasible, economical and effective solution are to be presented in front of jury.",
+        "eventManagers": "Nikhil Chaudhri\nBhavik Keshvani"
+      },
+      {
+        "eventName": "Kabelzubia(Bridge)",
+        "round2Description": "",
+        "round1Description": "",
+        "participants": "2 or 3 ",
+        "email": "kartik.ska303@gmail.com",
+        "eventDescription": "With candy stick and rope, make a bridge of hope.\nParticipants have to build Cable Bridge using popsicle sticks and thread. All required materials and dimensions of bridge will be provided by management. Bridge which will be able to bear maximum load will be winner. Time: 3 hours",
+        "contactInfo": "9429932136\n9714383891\n9662838425",
+        "fees": "60",
+        "round3Description": "",
+        "eventManagers": "Kartik Sarkhejia\nHiren Patel\nUmang Jadav"
+      },
+      {
+        "eventName": "Civil Hunt",
+        "round2Description": "Solve clue with help of surveying instruments.",
+        "round1Description": "Quiz based on general knowledge of famous civil structures and basic surveying.",
+        "participants": "2,3",
+        "email": "mehalkotadiya44@gmail.com",
+        "eventDescription": "To achieve your goal direction is needed; knowledge is important & implementation is must",
+        "contactInfo": "8866713273\n9586938034\n9586594389",
+        "fees": "30",
+        "round3Description": "Simple geometric shapes will be given to team and they have to draw it on ground on very large scale using surveying instruments.",
+        "eventManagers": "Malhar Kothari\nMehal Kotadiya\nKhushbu Gohel"
+      }
+    ];
+  </script>
+
+</head>
+<body>
+<main class="cd-main">
+  <header>
+    <h1>SkyScrapers</h1>
+  </header>
+
+  <!-- todo: Add custom style for tiles -->
+  <ul class="cd-gallery">
+    <li class="cd-item">
+      <a href="#Civil Hunt">
+        <div>
+          <h2>Civil Hunt</h2>
+          <p>To achieve your goal direction is needed; knowledge is important & implementation is must.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Soil-a-Arch">
+        <div>
+          <h2>Soil-a-Arch</h2>
+          <p>Shape your idea with clay.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Bob The Builder">
+        <div>
+          <h2>Bob The Builder</h2>
+          <p>It's not only how much load you can bare, keeping the balance is also important.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Ignited Minds">
+        <div>
+          <h2>Ignited Minds</h2>
+          <p>Theory to practically. Here CPI is of no concern. How good you are at concept will be checked.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Real estate">
+        <div>
+          <h2>Real estate</h2>
+          <p>Whale log of common sense and civil engineering knowledge will lead uou toward higher profit in real
+            estate.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Kabelzubia(Bridge)">
+        <div>
+          <h2>Kabelzubia(Bridge)</h2>
+          <p>With candy stick and rope, make a bridge of hope.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <!-- todo: Add Heads and CoHeads -->
+    <li class="cd-item">
+      <a href="#_">
+        <div>
+          <h2>_</h2>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+  </ul>
+</main>
+
+<div class="cd-folding-panel">
+  <div class="fold-left"></div>
+  <div class="fold-right"></div>
+  <div class="cd-fold-content"></div>
+  <a class="cd-close" href="#"></a>
+</div>
+
+<script src="js/vendor/jquery-2.2.1.min.js"></script>
+<script src="js/book-main.js"></script>
+</body>
+</html>
