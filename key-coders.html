@@ -1,12 +1,106 @@
 <!doctype html>
+<!--suppress HtmlUnknownAnchorTarget -->
 <html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Key Coders</title>
-  <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-  <script src="js/vendor/modernizr-2.8.3.min.js"></script> <!-- Modernizr -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="js/vendor/handlebars.runtime.min.js"></script>
+  <!-- eventpage template -->
+  <script src="js/templates/eventpage.min.js"></script>
+
+  <script>
+    var eventData = [
+      {
+        "eventName": "OS Revolution",
+        "round2Description": "open book surprise round.",
+        "round1Description": "Quiz on general knowledge of operating system.(ex. Name latest android OS)",
+        "participants": "2",
+        "email": "jitendrasinhsolanki@hotmail.com",
+        "eventDescription": "Know how your PC works!!",
+        "contactInfo": "9712119272\n8866433354",
+        "fees": "20",
+        "round3Description": "",
+        "eventManagers": "Urja Solanki\nJitendra Solanki"
+      },
+      {
+        "eventName": "Huntware",
+        "round2Description": "Treasure Hunt",
+        "round1Description": "Hardware Quiz",
+        "participants": "2",
+        "email": "dipin.kadecha@gmail.com",
+        "eventDescription": "Equal parts, swagger and smart!!",
+        "contactInfo": "8866144550\n787474476\n8866093093",
+        "fees": "20",
+        "round3Description": "Surprise Round",
+        "eventManagers": "Dipen Kadecha\nArchana Chavda\nAbhishek Mehta"
+      },
+      {
+        "eventName": "<TAGS>",
+        "round2Description": "One has to draw picture and team members have to identify the word from picture.",
+        "round1Description": "Treasure hunt on html/CSS/JavaScript.",
+        "participants": "2",
+        "email": "mittalmayank.bvm@gmail.com",
+        "eventDescription": "Bid your tags or pack your bags.",
+        "contactInfo": "9428234766\n9537394281",
+        "fees": "20",
+        "round3Description": "bidding on tags and web developing.",
+        "eventManagers": "Mayank Mittal\nVinita Vaswani"
+      },
+      {
+        "eventName": "Ultimate Coding Challenge",
+        "round2Description": "Two members will be given two different programs to solve independently. One Encryption Program need to be solved by both team members together.",
+        "round1Description": "Buzzer round on C and C++.",
+        "participants": "2",
+        "email": "yash.sonani94@gmail.com",
+        "eventDescription": "Buzz,Code,Distract",
+        "contactInfo": "9725599099\n9429570707\n8401607277 ",
+        "fees": "20",
+        "round3Description": "Open ground Programming with full distractions.",
+        "eventManagers": "Yash Sonani\nShrey Vyas\nJay Thacker"
+      },
+      {
+        "eventName": "Office Suite",
+        "round2Description": "Debate on technical topic.",
+        "round1Description": "Purely windows based quiz.",
+        "participants": "1",
+        "email": "ushashah1811@gmail.com",
+        "eventDescription": "Be like Bill",
+        "contactInfo": "9725086562\n9408723115",
+        "fees": "20",
+        "round3Description": "Windows office suite.\nCreate a newsletter in word\nCreate a poster in PowerPoint presentation\nCreate a excel sheet as given by organizer\n",
+        "eventManagers": "Usha Shah\nRiddhi Dave"
+      },
+      {
+        "eventName": "Battle Code",
+        "round2Description": "Simple code is given to write with their monitors\u2019 screen which would be rotated 180 degrees and keyboards will be reversed.",
+        "round1Description": "computer world, programming languages, current affairs related quiz.",
+        "participants": "2",
+        "email": "kthanky@gmail.com",
+        "eventDescription": "Your troops are ready for battle",
+        "contactInfo": "9624170530\n951014059",
+        "fees": "20",
+        "round3Description": "10-15 blocks of code will be given to participants, they have to use those blocks or logic of those blocks and the team to come up with a logical piece of code within minimum time",
+        "eventManagers": "Pinal Meruliya\nKunal Thanki"
+      },
+      {
+        "eventName": "BAT(Be a Technocrate)",
+        "round2Description": "Program will be given in any programming language, participants have to convert it in C/C++ by understanding the logic.",
+        "round1Description": "there will be technical quiz based on C/C++, basics of IT/CP, crossword, aptitude",
+        "participants": "2",
+        "email": "parth.12282@gmail.com",
+        "eventDescription": "I am not a geek, I am Technocrat!!",
+        "contactInfo": "9429916848\n9898319279",
+        "fees": "20",
+        "round3Description": "one member will be given definition and other will play snake & ladder. Non-tech questions will be asked, and answer of those questions will be used as input in coding of definition.",
+        "eventManagers": "Dhwani Bhansali\nParth Upadhyay"
+      }
+    ];
+  </script>
+
 </head>
 <body>
 <main class="cd-main">
@@ -16,59 +110,83 @@
 
   <ul class="cd-gallery">
     <li class="cd-item">
-      <a href="item-1.html">
+      <a href="#Ultimate Coding Challenge">
         <div>
-          <h2>Title 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur.</p>
+          <h2>Ultimate Coding Challenge</h2>
+          <p>Buzz, Code, Distract.</p>
           <b>View More</b>
         </div>
       </a>
     </li>
 
     <li class="cd-item">
-      <a href="item-2.html">
+      <a href="#<TAGS>">
         <div>
-          <h2>Title 2</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur.</p>
+          <h2>&lt;TAGS&gt;</h2>
+          <p>Bid your tags or pack your bags.</p>
           <b>View More</b>
         </div>
       </a>
     </li>
 
     <li class="cd-item">
-      <a class="dark-text" href="item-3.html">
+      <a href="#Battle Code">
         <div>
-          <h2>Title 3</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur.</p>
+          <h2>Battle Code</h2>
+          <p>Your troops are ready to battle.</p>
           <b>View More</b>
         </div>
       </a>
     </li>
 
     <li class="cd-item">
-      <a href="item-4.html">
+      <a href="#BAT">
         <div>
-          <h2>Title 4</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur.</p>
+          <h2>BAT</h2>
+          <p>I am not a geek, I am Technocrat!</p>
           <b>View More</b>
         </div>
       </a>
     </li>
-  </ul> <!-- .cd-gallery -->
-</main> <!-- .cd-main -->
+
+    <li class="cd-item">
+      <a href="#OS Revolution">
+        <div>
+          <h2>OS Revolution</h2>
+          <p>Know how your pc works!!</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Office Suite">
+        <div>
+          <h2>Office Suite</h2>
+          <p>Be like Bill.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Huntware">
+        <div>
+          <h2>Huntware</h2>
+          <p>Equal parts, swagger and smart!!</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+  </ul>
+</main>
 
 <div class="cd-folding-panel">
-
-  <div class="fold-left"></div> <!-- this is the left fold -->
-
-  <div class="fold-right"></div> <!-- this is the right fold -->
-
-  <div class="cd-fold-content">
-    <!-- content will be loaded using javascript -->
-  </div>
-
+  <div class="fold-left"></div>
+  <div class="fold-right"></div>
+  <div class="cd-fold-content"></div>
   <a class="cd-close" href="#"></a>
-</div> <!-- .cd-folding-panel -->
+</div>
 
 <script src="js/vendor/jquery-2.2.1.min.js"></script>
 <script src="js/book-main.js"></script>

@@ -1,7 +1,9 @@
 jQuery(document).ready(function ($) {
   var gallery = $('.cd-gallery'),
     foldingPanel = $('.cd-folding-panel'),
-    mainContent = $('.cd-main');
+    mainContent = $('.cd-main'),
+    a = document.createElement('a');
+
   /* open folding content */
   gallery.on('click', 'a', function (event) {
     event.preventDefault();
@@ -43,20 +45,18 @@ jQuery(document).ready(function ($) {
     if (bool) {
       /* load and show new content */
       var foldingContent = foldingPanel.find('.cd-fold-content');
-      foldingContent.load(url + ' .cd-fold-content > *', function (event) {
-        $('#u16-ep-title').html(url.substr(url.lastIndexOf('#')));
-        setTimeout(function () {
-          $('body').addClass('overflow-hidden');
-          foldingPanel.addClass('is-open');
-          mainContent.addClass('fold-is-open');
-        }, 100);
-
-      });
+      foldingContent.html(Handlebars.templates.eventpage(getEvent(url.substr(1))));
+      a.href = url;
+      a.click();
+      $('body').addClass('overflow-hidden');
+      foldingPanel.addClass('is-open');
+      mainContent.addClass('fold-is-open');
     } else {
       /* close the folding panel */
       var mq = viewportSize();
       foldingPanel.removeClass('is-open');
       mainContent.removeClass('fold-is-open');
+      history.back();
 
       (mq == 'mobile' || $('.no-csstransitions').length > 0 )
         /* according to the mq, immediately remove the .overflow-hidden or wait for the end of the animation */
@@ -73,5 +73,12 @@ jQuery(document).ready(function ($) {
   function viewportSize() {
     /* retrieve the content value of .cd-main::before to check the actua mq */
     return window.getComputedStyle(document.querySelector('.cd-main'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, "");
+  }
+
+  function getEvent(eventName) {
+    for (var i = 0; i < eventData.length; i++) {
+      if (eventData[i].eventName == eventName) return eventData[i];
+    }
+    throw 'Could not find event ' + eventName;
   }
 });
