@@ -96,13 +96,35 @@ textarea {
    ========================================================================== */
 
 /* begin:custom */
+
 .card-image > img {
-  background-color: #424242;
+  background-color: #000;
 }
 
 .owl.card {
   margin: 10px;
 }
+
+#u16-home {
+  padding: 0;
+}
+
+#u16-canvas {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: #000;
+  opacity: 0.95;
+}
+
+#u16-logo {
+  max-width: 90vw;
+  height: 90vh;
+  display: block;
+  margin: 0 auto;
+}
+
 /* end:custom */
 
 /* begin:onepage-scroll.css */
