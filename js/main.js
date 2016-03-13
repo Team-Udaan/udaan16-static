@@ -12,7 +12,7 @@ jQDoc.ready(function () {
 
 // end:bootstrap onepage_scroll plugin
 
-// begin:bootstrap onepage_scroll plugin
+// begin:bootstrap owl-carousel plugin
 
 jQDoc.ready(function () {
   $('#u16-tech-event-carousel').owlCarousel({
@@ -26,7 +26,7 @@ jQDoc.ready(function () {
   });
 });
 
-// end:bootstrap onepage_scroll plugin
+// end:bootstrap owl-carousel plugin
 
 // begin:canvas
 
