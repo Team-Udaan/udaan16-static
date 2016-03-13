@@ -96,7 +96,13 @@ textarea {
    ========================================================================== */
 
 /* begin:custom */
+.card-image > img {
+  background-color: #424242;
+}
 
+.owl.card {
+  margin: 10px;
+}
 /* end:custom */
 
 /* begin:onepage-scroll.css */
