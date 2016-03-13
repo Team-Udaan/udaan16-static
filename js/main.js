@@ -38,13 +38,3 @@ jQDoc.ready(function () {
 });
 
 // end:canvas
-
-// begin:pie-menu
-
-$('#u16-pie-menu').PieMenu({
-  'starting_angel': 0,
-  'angel_difference': 180,
-  'radius': 100
-});
-
-// end:pie-menu
