@@ -1,0 +1,205 @@
+<!doctype html>
+<!--suppress HtmlUnknownAnchorTarget -->
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Key Coders</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="js/vendor/handlebars.runtime.min.js"></script>
+  <!-- eventpage template -->
+  <script src="js/templates/eventpage.min.js"></script>
+
+  <script>
+    var eventData = [
+      {
+        "eventName": "Bot Ball",
+        "round2Description": "",
+        "round1Description": "",
+        "participants": "2",
+        "email": "noorsarafaraj@yahoo.in",
+        "eventDescription": "Let The Bot Do The Talk!\nTeams will be competing against each other on the track with numbers of obstacles to get the maximum number of balls into their court. Let\u2019s see who takes the ball!!",
+        "contactInfo": "8469642999\n9712035211\n7874536826\n8980536577",
+        "fees": "40",
+        "round3Description": "",
+        "eventManagers": "Sarafaraj Noor\nTank Sagar\nSiddhraj Gogre\nKishan Avasthi"
+      },
+      {
+        "eventName": "Imperial Race",
+        "round2Description": "Crossing a maze . 4 teams  compete in the mazefirst will be eligible for next round",
+        "round1Description": "Hurdle race. Base on point table teams will qualify for next round ",
+        "participants": "3",
+        "email": "kotharimahak9@gmail.com",
+        "eventDescription": "Battle Among  The Bests . Race On!",
+        "contactInfo": "9909364004\n9574707352\n9409576082\n8141328438\n9586513968",
+        "fees": "60",
+        "round3Description": "Capture the flag . two teams will complete all the flags & reach to enemies territory would be the winner.",
+        "eventManagers": "Mahak Kothari\nMohit Agrawal\nHarsh Dholkiya\nParth Sarvaiya\nVivek Tank"
+      },
+      {
+        "eventName": "Crack The Nut",
+        "round2Description": "",
+        "round1Description": "",
+        "participants": "2",
+        "email": "surajkantsingh007@gmail.com",
+        "eventDescription": "Scarcity Engenders Ingenuity.\nAn event which focuses on the technical skills of the student. There would be a technical quiz in the beginning which would be followed by a technical debate on the topics provided by us .The last round would be hypothetical problem solving .",
+        "contactInfo": "9428129998\n9925262247\n8460677521",
+        "fees": "30",
+        "round3Description": "",
+        "eventManagers": "Pariniti Doshi\nBhavin Mangukiya\nSurajkant Singh"
+      },
+      {
+        "eventName": "Crazy Code",
+        "round2Description": "the teams will be given incomplete circuits and the missing components will be placed at different locations. Hence following these clues the circuit will be completed and the top 5 reporting teams will go further.",
+        "round1Description": "One member gets the code and has to convey it in binary form using laser. The other person, being the receiver decodes the received message. For eg: If two lasers are ON=\u20181\u2019.If one laser is OFF=\u20190\u2019. The time taken to decode the message will be noted down and the teams will be short- listed accordingly.",
+        "participants": "2",
+        "email": "smsmaurya16@gmail.com",
+        "eventDescription": "Unleash The Decoder Within You!",
+        "contactInfo": "8460112353\n9067080905\n9898571156",
+        "fees": "30",
+        "round3Description": "surprise round!",
+        "eventManagers": "Anveshka Maurya\nAbhishek Rathod\nSambridhi Singh"
+      },
+      {
+        "eventName": "Electro Charades",
+        "round2Description": "",
+        "round1Description": "",
+        "participants": "2",
+        "email": "kariyakrishna@yahoo.com",
+        "eventDescription": "Interpret The Technical Language!\nAn interesting game of technical knowledge mixed with the fun of perceptions and dumb charades and treasure hunt. Test your presence of mind.\n\u2022\tWild card entry in the final round\n\u2022\tCrossword puzzles\n\u2022\tAn event designed for all, freshers and seniors\n",
+        "contactInfo": "9904602211\n9510852002\n9601290193",
+        "fees": "30 per team (15 for wildcard in 3rd round)",
+        "round3Description": "",
+        "eventManagers": "Kariya Krishna\nAditya Lakkad\nKaushal Patel"
+      },
+      {
+        "eventName": "Code-e-Tronics",
+        "round2Description": "Arduino based coding based on your level",
+        "round1Description": "Simple C language and Arduino based quiz",
+        "participants": "2",
+        "email": "nirav.kalathiya9@gmail.com",
+        "eventDescription": "Programs Can Be Fun, So Can Be Cryptography; However They Shouldn\u2019t Be Combined, Or You Have A Mystery.\n",
+        "contactInfo": "7874732932\n9725825915\n9726275505",
+        "fees": "60",
+        "round3Description": "Selected students have to simulate arduino program on proteus. They can have good opportunity to learn python programming language",
+        "eventManagers": "Nirav Kalathiya\nUmesh Baria\nSneha Kakadiya"
+      },
+      {
+        "eventName": "Wall-E-Tronics",
+        "round2Description": "speak up and make it to the last. 10 levels of questions ",
+        "round1Description": "solve the cross and find the word",
+        "participants": "2",
+        "email": "charanrajshetty1993@gmail.com",
+        "eventDescription": "Battle Of The Technical Minds ",
+        "contactInfo": "9662736954\n8866528494\n9662598809",
+        "fees": "20",
+        "round3Description": "Use the creativity. Circuit implementation ",
+        "eventManagers": "Charanraj Shetty\nVaibhav Jariwala\nAeshwarya Jain"
+      }
+    ];
+  </script>
+
+</head>
+<body>
+<main class="cd-main">
+  <header>
+    <h1>Embeddrones</h1>
+  </header>
+
+  <!-- todo: Add custom style for tiles -->
+  <ul class="cd-gallery">
+    <li class="cd-item">
+      <a href="#Imperial Race">
+        <div>
+          <h2>Imperial Race</h2>
+          <p>Battle Among The Bests. Race On!</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Bot Ball">
+        <div>
+          <h2>Bot Ball</h2>
+          <p>Let The Bot Do The Talk!</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Crack The Nut">
+        <div>
+          <h2>Crack The Nut</h2>
+          <p>Scarcity Endangers Ingenuity.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Wall-E-Tronics">
+        <div>
+          <h2>Wall-E-Tronics</h2>
+          <p>Battle Of The Technical Minds.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Crazy Code">
+        <div>
+          <h2>Crazy Code</h2>
+          <p>Unleash The Decoder Within You!</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Electro Charades">
+        <div>
+          <h2>Electro Charades</h2>
+          <p>Interpret The Technical Language!</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <li class="cd-item">
+      <a href="#Code-e-Tronics">
+        <div>
+          <h2>Code-e-Tronics</h2>
+          <p>Programs Can Be Fun, Su can Be Cryptography, However They Shouldn't Be Combined. Or You Have A Mystery.</p>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+
+    <!-- todo: Add Heads and CoHeads -->
+    <li class="cd-item">
+      <a href="#_">
+        <div>
+          <h2>_</h2>
+          <b>View More</b>
+        </div>
+      </a>
+    </li>
+  </ul>
+</main>
+
+<div class="cd-folding-panel">
+  <div class="fold-left"></div>
+  <div class="fold-right"></div>
+  <div class="cd-fold-content"></div>
+  <a class="cd-close" href="#"></a>
+</div>
+
+<script src="js/vendor/jquery-2.2.1.min.js"></script>
+<script src="js/book-main.js"></script>
+</body>
+</html>
