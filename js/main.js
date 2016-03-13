@@ -1,6 +1,8 @@
+var jQDoc = $(document);
+
 // begin:bootstrap onepage_scroll plugin
 
-$(document).ready(function () {
+jQDoc.ready(function () {
   $('.main').onepage_scroll({
     easing: 'ease-in-out',
     pagination: false,
@@ -12,7 +14,7 @@ $(document).ready(function () {
 
 // begin:bootstrap onepage_scroll plugin
 
-$(document).ready(function () {
+jQDoc.ready(function () {
   $('#u16-tech-event-carousel').owlCarousel({
     autoPlay: 2000,
     items: 6
@@ -25,3 +27,24 @@ $(document).ready(function () {
 });
 
 // end:bootstrap onepage_scroll plugin
+
+// begin:canvas
+
+jQDoc.ready(function () {
+  $('#u16-canvas').particleground({
+    dotColor: '#5DB72D',
+    lineColor: '#0F7DAE'
+  });
+});
+
+// end:canvas
+
+// begin:pie-menu
+
+$('#u16-pie-menu').PieMenu({
+  'starting_angel': 0,
+  'angel_difference': 180,
+  'radius': 100
+});
+
+// end:pie-menu

@@ -9,18 +9,24 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/materialize.min.css">
-  <script src="js/vendor/jquery-2.2.1.min.js"></script>
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-  <script src="js/plugins.min.js"></script>
+  <script src="js/vendor/jquery-2.2.1.min.js"></script>
+  <script src="js/vendor/onepage_scroll.min.js"></script>
+  <script src="js/vendor/owl.carousel.min.js"></script>
+  <script src="js/vendor/jquery.particleground.min.js"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
 
 <!-- begin:onepage_scroll container -->
 <div class="main">
-  <section id="u16-home" class="valign-wrapper">
-    <div class="valign">
-      <img src="refs/Logo.png" width="100%" alt="Logo">
+  <section id="u16-home" style="padding: 0;">
+    <div id="u16-canvas"
+         style="position: absolute; width: 100vw; height: 100vh; z-index: -1; background-color: #000; opacity: 0.95;"></div>
+    <img src="img/udaan-logos/Wing.svg" style="max-width: 90vw; height: 90vh; display: block; margin: 0 auto;"
+         alt="Logo">
+    <div>
+      <!-- todo: Add material pie menu button -->
     </div>
   </section>
   <section id="u16-about-udaan">
@@ -125,8 +131,7 @@
 
       <div class="owl card">
         <div class="card-image">
-          <!-- todo: Add Non Tech's svg image -->
-          <img src="refs/Logo.png" alt="Non Tech">
+          <img src="img/udaan-logos/Wing.svg" alt="Non Tech">
           <span class="card-title">Non Tech</span>
         </div>
         <div class="card-content">
@@ -140,8 +145,7 @@
 
       <div class="owl card">
         <div class="card-image">
-          <!-- todo: Add Treasure Hunt's svg image -->
-          <img src="refs/Logo.png" alt="Treasure Hunt">
+          <img src="img/udaan-logos/Wing.svg" alt="Treasure Hunt">
           <span class="card-title">Treasure Hunt</span>
         </div>
         <div class="card-content">
@@ -155,8 +159,7 @@
 
       <div class="owl card">
         <div class="card-image">
-          <!-- todo: Add Cultural's svg image -->
-          <img src="refs/Logo.png" alt="Cultural">
+          <img src="img/udaan-logos/Wing.svg" alt="Cultural">
           <span class="card-title">Cultural</span>
         </div>
         <div class="card-content">
@@ -170,8 +173,7 @@
 
       <div class="owl card">
         <div class="card-image">
-          <!-- todo: Add Special Events For Girls' svg image -->
-          <img src="refs/Logo.png" alt="Special Events For Girls">
+          <img src="img/udaan-logos/Wing.svg" alt="Special Events For Girls">
           <span class="card-title">Special Events For Girls</span>
         </div>
         <div class="card-content">

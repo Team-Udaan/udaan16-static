@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X7 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100" height="100" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 -2147483648 -2147483648"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300" height="300" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 12675 6986"
  xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#898989;stroke-width:140.815}
+    .str2 {stroke:#E31E24;stroke-width:140.815}
+    .str1 {stroke:#E31E24;stroke-width:234.692}
+    .fil0 {fill:none}
+    .fil1 {fill:#E31E24}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_558331801584">
+   <polyline class="fil0 str0" points="2798,3331 3346,2783 5856,2783 "/>
+   <polyline class="fil0 str0" points="1649,1584 2644,1584 3476,2415 5605,2415 "/>
+   <polyline class="fil0 str0" points="209,2833 618,2423 2055,2423 2447,2030 3060,2030 "/>
+   <polyline class="fil0 str0" points="3916,1323 5586,1323 6919,2656 10252,2656 "/>
+   <path class="fil0 str1" d="M12675 1975l-1716 0 -1119 1118 -812 812 -3370 0 -2834 2834 -2007 0m322 -6541l689 0 1861 1861 1555 0 985 984 3688 0"/>
+   <circle class="fil0 str2" cx="4831" cy="6302" r="613"/>
+   <circle class="fil0 str2" cx="7375" cy="1848" r="441"/>
+   <g>
+    <circle class="fil0 str0" cx="3096" cy="4251" r="613"/>
+    <circle class="fil0 str0" cx="1117" cy="4462" r="475"/>
+   </g>
+   <circle class="fil0 str2" cx="511" cy="511" r="441"/>
+   <g>
+    <circle class="fil1" cx="1776" cy="3178" r="475"/>
+    <circle class="fil1" cx="2100" cy="5337" r="475"/>
+   </g>
+  </g>
+ </g>
 </svg>

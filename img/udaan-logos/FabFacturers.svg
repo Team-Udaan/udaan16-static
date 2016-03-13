@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW X7 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100" height="100" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 -2147483648 -2147483648"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300" height="300" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1546 1180"
  xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#BDCC3D}
+    .fil0 {fill:#F24D16}
+   ]]>
+  </style>
+     <clipPath id="id0">
+      <path d="M417 395c206,13 369,184 369,393 0,217 -176,392 -393,392 -217,0 -393,-175 -393,-392 0,-110 45,-209 117,-280l0 0 514 -508 92 93 -306 302zm-182 181l-26 25 -2 -1c-48,47 -79,114 -79,188 0,146 119,264 265,264 146,0 264,-118 264,-264 0,-146 -118,-265 -264,-265 -59,0 -114,20 -158,53z"/>
+     </clipPath>
+     <clipPath id="id1">
+      <path d="M1344 527c137,155 132,391 -16,538 -153,154 -402,154 -556,0 -153,-153 -153,-402 0,-555 78,-78 179,-116 280,-115l0 0 494 4 -1 131 -201 -3zm-256 -1l-36 0 0 -3c-69,0 -137,26 -189,78 -103,103 -103,270 0,374 103,103 271,103 374,0 103,-104 103,-271 0,-374 -42,-42 -94,-67 -149,-75z"/>
+     </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_556922442544">
+   <path class="fil0" d="M417 395c206,13 369,184 369,393 0,217 -176,392 -393,392 -217,0 -393,-175 -393,-392 0,-110 45,-209 117,-280l0 0 514 -508 92 93 -306 302zm-182 181l-26 25 -2 -1c-48,47 -79,114 -79,188 0,146 119,264 265,264 146,0 264,-118 264,-264 0,-146 -118,-265 -264,-265 -59,0 -114,20 -158,53z"/>
+   <g>
+    <g style="clip-path:url(#id0)">
+     <image x="0" y="0" width="786" height="1180" xlink:href="FabFacturers_Images\FabFacturers_ImgID1.png"/>
+    </g>
+   </g>
+   <path class="fil1" d="M1344 527c137,155 132,391 -16,538 -153,154 -402,154 -556,0 -153,-153 -153,-402 0,-555 78,-78 179,-116 280,-115l0 0 494 4 -1 131 -201 -3zm-256 -1l-36 0 0 -3c-69,0 -137,26 -189,78 -103,103 -103,270 0,374 103,103 271,103 374,0 103,-104 103,-271 0,-374 -42,-42 -94,-67 -149,-75z"/>
+   <g>
+    <g style="clip-path:url(#id1)">
+     <image x="657" y="395" width="889" height="786" xlink:href="FabFacturers_Images\FabFacturers_ImgID2.png"/>
+    </g>
+   </g>
+  </g>
+ </g>
 </svg>
