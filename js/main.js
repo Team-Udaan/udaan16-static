@@ -15,7 +15,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('#u16-tech-event-carousel').owlCarousel({
     autoPlay: 2000,
-    items: 4
+    items: 6
   });
 
   $('#u16-non-tech-event-carousel').owlCarousel({
