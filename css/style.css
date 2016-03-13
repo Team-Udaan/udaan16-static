@@ -179,18 +179,6 @@ Main content
   display: table-cell;
   vertical-align: middle;
 }
-.cd-item:nth-of-type(1) {
-  background-color: #363558;
-}
-.cd-item:nth-of-type(2) {
-  background-color: #544173;
-}
-.cd-item:nth-of-type(3) {
-  background-color: #dadcdc;
-}
-.cd-item:nth-of-type(4) {
-  background-color: #65d29b;
-}
 .cd-item h2 {
   font-size: 2.2rem;
 }
@@ -214,7 +202,7 @@ Main content
   .cd-item {
     width: 50%;
     float: left;
-    height: 520px;
+    height: 300px;
     -webkit-transition: -webkit-transform 0.5s 0.4s;
     -moz-transition: -moz-transform 0.5s 0.4s;
     transition: transform 0.5s 0.4s;
