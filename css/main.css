@@ -125,6 +125,12 @@ textarea {
   margin: 0 auto;
 }
 
+.u16-grad {
+  background: #ffffff;
+  background: radial-gradient(ellipse at center, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
+}
+
 /* end:custom */
 
 /* begin:onepage-scroll.css */
