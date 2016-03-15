@@ -45,7 +45,9 @@ jQuery(document).ready(function ($) {
     if (bool) {
       /* load and show new content */
       var foldingContent = foldingPanel.find('.cd-fold-content');
-      foldingContent.html(Handlebars.templates.eventpage(getEvent(url.substr(1))));
+      var event = getEvent(url.substr(1));
+      event.eventArt = getEventArt(eventCategory, event.eventName);
+      foldingContent.html(Handlebars.templates.eventpage(event));
       a.href = url;
       a.click();
       $('body').addClass('overflow-hidden');
@@ -80,5 +82,13 @@ jQuery(document).ready(function ($) {
       if (eventData[i].eventName == eventName) return eventData[i];
     }
     throw 'Could not find event ' + eventName;
+  }
+
+  function getEventArt(categoryName, eventName) {
+    return 'img/event-arts' + categoryName + '/' + hyphenify(eventName) + '.svg';
+  }
+
+  function hyphenify(string) {
+    return string.replace(/\s/g, '-').replace(/[<>]/g, '').toLowerCase();
   }
 });
