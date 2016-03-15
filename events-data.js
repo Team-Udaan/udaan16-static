@@ -111,7 +111,7 @@ var eventsData = {
     {
       "email": "milindbhoya777@gmail.com",
       "participants": "1",
-      "eventName": "Far Away Fast",
+      "eventName": "Far away fast",
       "round1Description": "Quiz which contains logical questions, brain teasers, and questions based on logos and general knowledge.",
       "eventDescription": "Solve the clues!",
       "round3Description": "Solve clues and find the final place in the campus.",
@@ -123,7 +123,7 @@ var eventsData = {
     {
       "email": "rohangmakwana@gmail.com",
       "participants": "1",
-      "eventName": "Let Us Be Friends",
+      "eventName": "Let us be Friends",
       "round1Description": "Participants will be paired, given time to get to know each other. They will then have to fill a form which has questions about each other.",
       "eventDescription": "Find a Friend and Join the Trend!",
       "round3Description": "Surprise Round.",
@@ -205,7 +205,7 @@ var eventsData = {
       "eventManagers": "Patel Chintan\nChauhan Shailesh\nGeet Vadher"
     },
     {
-      "eventName": "S.S.B",
+      "eventName": "SSB",
       "round2Description": "Group task on set-up provided by team.",
       "round1Description": "Quiz based on mental ability and PPDT (Picture Perception and Discussion Test).",
       "participants": "1",
@@ -229,7 +229,7 @@ var eventsData = {
       "eventManagers": "Kedar Dave\nHarivadan"
     },
     {
-      "eventName": "Crazy Cricket",
+      "eventName": "Crazy cricket",
       "round2Description": "",
       "round1Description": "",
       "participants": "4",
@@ -241,7 +241,7 @@ var eventsData = {
       "eventManagers": "Jay Narodiya\nJigesh Gajera\nUday Bhatu\nJayraj Senjaliya"
     },
     {
-      "eventName": "Win It in minute",
+      "eventName": "Win it in minute",
       "round2Description": "",
       "round1Description": "",
       "participants": "2 or 3",
@@ -253,7 +253,7 @@ var eventsData = {
       "eventManagers": "Divya Sonagara\nAnand Limbad\nPoorvam Gautam"
     },
     {
-      "eventName": "Aryabhatta - The Mastermind",
+      "eventName": "Aryabhatta",
       "round2Description": "Participants will have to answer mathematical questions while performing any given activity.",
       "round3Description": "Surprise.",
       "eventDescription": "Discover the Aryabhatta within you. Come play!",
@@ -351,7 +351,7 @@ var eventsData = {
       "eventManagers": "Kruti Patel\nKushan Bhatt"
     },
     {
-      "eventName": "Bolly mix Bolly",
+      "eventName": "Bolly mix bolly",
       "round2Description": "On Stage quizzing ",
       "round1Description": "Written Test",
       "participants": "2",
@@ -414,7 +414,7 @@ var eventsData = {
   "tech": {
     "Civil": [
       {
-        "eventName": "Bob The Builder(Build a Crane)",
+        "eventName": "Bob The Builder",
         "round2Description": "",
         "round1Description": "",
         "participants": "Max 3",
@@ -438,7 +438,7 @@ var eventsData = {
         "eventManagers": "Deep Bhalani\nAmit Ratnani\nPratik Patel"
       },
       {
-        "eventName": "Real Estate",
+        "eventName": "Real estate",
         "round2Description": "Teams will be provided virtual money and they are supposed to bid on different properties shown on map (provided by management) and different conditions will be given like highway proposal, new bridge construction, legal documentation, etc.",
         "round1Description": "Business quiz related to conditions, situations, future changes risks, etc. (Mostly related to civil engineering) ",
         "participants": "2 or 3 ",
@@ -462,7 +462,7 @@ var eventsData = {
         "eventManagers": "Nikhil Chaudhri\nAnkush Pandita"
       },
       {
-        "eventName": "Kablezubia(Bridge Building)",
+        "eventName": "Kabelzubia(Bridge)",
         "round2Description": "",
         "round1Description": "",
         "participants": "2 or 3 ",
@@ -501,7 +501,7 @@ var eventsData = {
         "round1Description": "It is a screening round, a quiz based on EME, MOS, EG, general knowledge, aptitude, verbal ability, etc.",
         "eventManagers": "Neel Prajapati\nPrabhav Joshi",
         "contactInfo": "9099614787\n7405589552",
-        "eventName": "Pro-Mech Hunting",
+        "eventName": "Pro-mech Hunting",
         "round2Description": "There will be a Treasure Hunt, clues would be Tech and Non-Tech both. The answers they'll get from the clues will have questions for case study in the final round. ",
         "fees": "30",
         "round3Description": "Participants have to prepare a case study based on clues received in the second round. They will have to present it in the form of detailed representation on the provided sheets to the jury. Jury will then declare the final winner.",
@@ -561,7 +561,7 @@ var eventsData = {
       {
         "email": "mehulzare31795@gmail.com",
         "participants": "2",
-        "eventName": "Mech CHase",
+        "eventName": "Mechchase",
         "round1Description": "Open Book Exam: The subject will be Elements of Mechanical Engineering. (Elements of Mechanical Engineering Book is compulsory.)",
         "eventDescription": "Mechanical Treasure Hunt!",
         "round3Description": "Treasure hunt: The particpants will be given a pictorial puzzle of different places from the campus. They will have to re-arrange the pieces of the puzzle, identify the location and reach their before their competitors do!",
@@ -743,7 +743,7 @@ var eventsData = {
         "participants": "2"
       },
       {
-        "eventName": "Code-E-Thonics",
+        "eventName": "Code-e-Tronics",
         "round2Description": "Arduino based coding.",
         "round3Description": "Students have to simulate an Arduino program using Proteus.",
         "eventDescription": "Programs are fun. So is cryptography. They shouldn't be combined. Or they become a mystery!",
@@ -844,7 +844,7 @@ var eventsData = {
   },
   "specialEventsForGirls": [
     {
-      "eventName": "Kudi Kamaal Dii",
+      "eventName": "Kudi Kamaal Di",
       "round2Description": "Decode the vent with your partner - the team of two girls will cross the parth by remembering the different codes to complete it",
       "round1Description": "Each participant have to perform one of the pre-decided four 'Minute to win it' games to get to the second round",
       "participants": "1",
