@@ -12,95 +12,13 @@
   <script src="js/vendor/handlebars.runtime.min.js"></script>
   <!-- eventpage template -->
   <script src="js/templates/eventpage.min.js"></script>
+  <script src="js/vendor/jquery-2.2.1.min.js"></script>
   <script src="js/vendor/materialize.min.js"></script>
+  <script src="js/book-main.js"></script>
+  <script src="events-data.js"></script>
 
   <script>
-    var eventData = [
-      {
-        "eventName": "Auto Techno",
-        "round2Description": "Car Comparison (Optional- If No. of entries are more)",
-        "round1Description": "Automobile Quiz",
-        "participants": "2",
-        "email": "adib.only@gmail.com",
-        "eventDescription": "Related to Automobile & recent developments in it",
-        "contactInfo": "8128327932\n7600058892",
-        "fees": "20",
-        "round3Description": "Automobile Problem is given and solution is presented by participants",
-        "eventManagers": "Ravi Kasodariya\nM.Adib Havaldar"
-      },
-      {
-        "eventName": "Hydrobounze",
-        "round2Description": "Boat is to be prepared from material given by us.",
-        "round1Description": "Elimination Round related to fluid mechanics",
-        "participants": "2",
-        "email": "pare.ramani@gmail.com",
-        "eventDescription": "Making of boat from given material & checking its performance",
-        "contactInfo": "8238827292\n9925893405\n8980359728",
-        "fees": "40",
-        "round3Description": "",
-        "eventManagers": "Paras Ramani\nMilan Kachhadiya\nKapil Tala"
-      },
-      {
-        "eventName": "Mechchase",
-        "round2Description": "Riddle round: Selected teams have to solve riddle from which they will get next clue.",
-        "round1Description": "Open book exam from Elememts of Mech Engg subject.",
-        "participants": "2",
-        "email": "mehulzare31795@gmail.com",
-        "eventDescription": "Mechanical Treasure Hunt",
-        "contactInfo": "9426744821\n8758131184\n9429645614",
-        "fees": "20",
-        "round3Description": "Treasure hunt : this round is same as 2nd round but here they will be given a cut piece of pic of specific location of BVM. They have to reorient the pieces , identify the location & have to reach there.",
-        "eventManagers": "Mehul Zare\nMohit Raina\nRajdeepsinh Ravalji"
-      },
-      {
-        "eventName": "Cavador",
-        "round2Description": "",
-        "round1Description": "",
-        "participants": "2",
-        "email": "karamta444@gmail.com",
-        "eventDescription": "Related to a crane (made of specific materials) Fight\nRules :-\n-During fight if any one of 4motion is restricted = Disqualify.\n-Fight will be one to one.\n-If the robot crosses particular boundry within which it has to stand=Disqualify.\n-Maximum time limit for single fight is 150sec.If any robot will not be defeated then both are disqualify.\n",
-        "contactInfo": "9429580444\n9427915417\n8460822274",
-        "fees": "20",
-        "round3Description": "",
-        "eventManagers": "Mayur Karamta\nAkshay Patel\nDixit Kansagara"
-      },
-      {
-        "eventName": "Sharp Shooter",
-        "round2Description": "Circular Target bord-Shooting",
-        "round1Description": "Plastic glasses in pyramid shape, Fall the glasses by shooting",
-        "participants": "2",
-        "email": "nikunj671314@gmail.com",
-        "eventDescription": "Pneumatic gun which uses pressurized air for shooting paint ball",
-        "contactInfo": "9904358419\n9979892529",
-        "fees": "20",
-        "round3Description": "Moving target",
-        "eventManagers": "Nikunj Gajera\nNirav Bhatt"
-      },
-      {
-        "eventName": "The Thrust",
-        "round2Description": "Marking based on explanation & design of car.",
-        "round1Description": "Elimination based on distance covered by car.",
-        "participants": "2",
-        "email": "akshaykarmur@gmail.com",
-        "eventDescription": "car run by using chemical reaction",
-        "contactInfo": "9601670626\n9409081166",
-        "fees": "20",
-        "round3Description": "winner based on explanation and distance covered after passing from obstacle.",
-        "eventManagers": "Akshay Karmur\nPujit Sarvaiya"
-      },
-      {
-        "eventName": "CAD Mania",
-        "round2Description": "You can Practice Basic Tools in CAD lab.(No Elimination)",
-        "round1Description": "You will be taught basic tools of AutoCAD.(No Elimination)",
-        "participants": "1",
-        "email": "nitinnathani231195@gmail.com",
-        "eventDescription": "Learn,Practice and Master",
-        "contactInfo": "9067656605\n8980138211\n7874653726",
-        "fees": "20",
-        "round3Description": "You will be given a drawing to make in CAD in given time.",
-        "eventManagers": "Nitin Nathani\nKavan Shah\nDeep Bhanushali"
-      }
-    ], eventCategory = '/tech/machinists';
+    var eventData = eventsData.tech.Mech, eventCategory = '/tech/machinists';
   </script>
 
 </head>
@@ -201,7 +119,5 @@
   <a class="cd-close" href="#"></a>
 </div>
 
-<script src="js/vendor/jquery-2.2.1.min.js"></script>
-<script src="js/book-main.js"></script>
 </body>
 </html>
