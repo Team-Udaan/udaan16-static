@@ -1,0 +1,25 @@
+{
+  "name": "udaan16-static",
+  "version": "1.0.0",
+  "description": "Udaan 16 Static Website",
+  "main": "index.html",
+  "scripts": {
+    "compile-eventpage": "handlebars ./js/templates/eventpage.handlebars -f ./js/templates/eventpage.min.js -m",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Udaan/udaan16-static.git"
+  },
+  "keywords": [
+    "Udaan",
+    "Static",
+    "Website"
+  ],
+  "author": "Dhruvin Gandhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Udaan/udaan16-static/issues"
+  },
+  "homepage": "https://github.com/Team-Udaan/udaan16-static#readme"
+}
