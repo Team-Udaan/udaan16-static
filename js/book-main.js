@@ -45,11 +45,29 @@ jQuery(document).ready(function ($) {
     if (bool) {
       /* load and show new content */
       var foldingContent = foldingPanel.find('.cd-fold-content');
-      var event = getEvent(url.substr(1));
+
+      var event = getEvent(url.substr(1)),
+        eventManagers = event.eventManagers.split('\n'),
+        contactInfo = event.contactInfo.split('\n');
+      event.managers = [];
+
+      for (var i = 0; i < eventManagers.length; i++) {
+        event.managers.push({
+          name: eventManagers[i],
+          contact: contactInfo[i]
+        });
+      }
+
+      // Set event art
       event.eventArt = getEventArt(eventCategory, event.eventName);
+
+      // Jot down the data and bootstrap components
       foldingContent.html(Handlebars.templates.eventpage(event));
+
+      // Hash-bang
       a.href = url;
       a.click();
+
       $('body').addClass('overflow-hidden');
       foldingPanel.addClass('is-open');
       mainContent.addClass('fold-is-open');
