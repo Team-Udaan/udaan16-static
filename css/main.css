@@ -115,7 +115,7 @@ textarea {
   margin: 10px;
 }
 
-#u16-home {
+#u16-home, #u16-footer {
   padding: 0;
 }
 
@@ -133,6 +133,50 @@ textarea {
   height: 90vh;
   display: block;
   margin: 0 auto;
+}
+
+#google-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e7eaf0;
+}
+
+#cd-zoom-in, #cd-zoom-out {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: rgba(211, 104, 104, 0.9);
+  background-repeat: no-repeat;
+  background-size: 32px 64px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-controller.svg");
+}
+
+.no-touch #cd-zoom-in:hover, .no-touch #cd-zoom-out:hover {
+  background-color: #d36868;
+}
+
+@media only screen and (min-width: 768px) {
+  #cd-zoom-in, #cd-zoom-out {
+    margin-left: 50px;
+  }
+}
+
+#cd-zoom-in {
+  background-position: 50% 0;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+  #cd-zoom-in {
+    margin-top: 50px;
+  }
+}
+
+#cd-zoom-out {
+  background-position: 50% -32px;
 }
 
 /* end:custom */
