@@ -5,7 +5,6 @@ var jQDoc = $(document);
 jQDoc.ready(function () {
   $('.main').onepage_scroll({
     easing: 'ease-in-out',
-    pagination: false,
     loop: false
   });
 });
