@@ -4,10 +4,10 @@
   <div class="row">
     <div class="col s2">
       <img src="{{eventArt}}" width="50" height="50" class="hide-on-med-and-up" alt="Event Art">
-      <img src="{{eventArt}}" width="72" height="72" class="hide-on-small-only" alt="Event Art">
+      <img src="{{eventArt}}" width="108" height="108" class="hide-on-small-only" alt="Event Art">
     </div>
     <div class="col s10 center">
-      <h2 class="hide-on-small-only">{{eventName}}</h2>
+      <h2 class="hide-on-small-only" style="line-height: 72px;">{{eventName}}</h2>
       <h4 class="hide-on-med-and-up">{{eventName}}</h4>
     </div>
   </div>
@@ -65,11 +65,10 @@
 
   <br>
   <hr>
-  <br>
 
   {{! Contact Info }}
   {{#each managers}}
-    <div style="margin: 2px;" class="chip">
+    <div style="margin: 8px auto;" class="chip">
       <span>{{name}} : </span>
       <b>{{contact}}</b>
     </div>
