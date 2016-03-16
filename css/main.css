@@ -131,6 +131,15 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
 }
 
+footer.page-footer{
+  background-color: rgba(0,176,255,0.5);
+}
+
+img.u-16-google-ms-badge{
+  max-height: 46px;
+  margin-left: 1px;
+}
+
 /* end:custom */
 
 /* begin:onepage-scroll.css */
@@ -398,6 +407,65 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
 
 /* end:owl-carousel */
 
+/*begin:footer*/
+
+#google-container {
+  position: relative;
+  width: 100vw;
+  height: 45vh;
+  background-color: #e7eaf0;
+}
+
+  #google-container {
+    height: 30vh;
+  }
+  #u16-footer header{
+    height: 20vh;
+  }
+
+#cd-google-map {
+  position: relative;
+}
+
+#cd-zoom-in, #cd-zoom-out {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: rgba(211, 104, 104, 0.9);
+  background-repeat: no-repeat;
+  background-size: 32px 64px;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-controller.svg");
+}
+.no-touch #cd-zoom-in:hover, .no-touch #cd-zoom-out:hover {
+  background-color: #d36868;
+}
+@media only screen and (min-width: 768px) {
+  #cd-zoom-in, #cd-zoom-out {
+    margin-left: 50px;
+  }
+  #google-container{
+    height: 50vh;
+  }
+}
+
+#cd-zoom-in {
+  background-position: 50% 0;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+@media only screen and (min-width: 768px) {
+  #cd-zoom-in {
+    margin-top: 50px;
+  }
+}
+
+#cd-zoom-out {
+  background-position: 50% -32px;
+}
+
+
+/*end:footer*/
 /* ==========================================================================
    Helper classes
    ========================================================================== */

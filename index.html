@@ -7,19 +7,20 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   <script src="js/vendor/jquery-2.2.1.min.js"></script>
   <script src="js/vendor/onepage_scroll.min.js"></script>
   <script src="js/vendor/owl.carousel.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
 
 <!-- begin:onepage_scroll container -->
 <div class="main">
-  <section id="u16-home" class="u16-grad">
+  <section id="u16-home">
     <img id="u16-logo" src="img/udaan-logos/Wing.svg" alt="Logo">
     <div>
       <!-- todo: Add material pie menu button -->
@@ -164,9 +165,49 @@
     </div>
 
   </section>
-  <section id="u16-footer">
+  <section id="u16-footer" class="u16-grad">
     <!-- todo: Add footer -->
-    u16-footer
+    <header>
+      <div class="valign-wrapper">
+        <div class="valign">
+          <div>
+            <a class="waves-effect waves-light">Team UDAAN</a>
+          </div>
+          <div>
+            <a class="waves-effect waves-light">Developers</a>
+          </div>
+          <a href="#"><img class="u-16-google-ms-badge" src="./img/udaan-logos/google-play-badge.png"></a>
+          <a href="#"><img class="u-16-google-ms-badge" src="./img/udaan-logos/google-play-badge.png"></a>
+        </div>
+      </div>
+    </header>
+
+    <div id="cd-google-map">
+      <div id="google-container"></div>
+      <div id="cd-zoom-in"></div>
+      <div id="cd-zoom-out"></div>
+    </div>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Address</h5>
+            <p class="grey-text text-lighten-4"> Mota Bazaar, Vallabh Vidya Nagar, Opp Shastri Maidan, Anand, Gujarat 388120</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+              <ul>
+                <li>
+                  <a href="#"><img class="u-16-google-ms-badge" src="./img/udaan-logos/facebook42.png"></a>
+                  <a href="#"><img class="u-16-google-ms-badge" src="./img/udaan-logos/github42.png"></a>
+                  <a href="#"><img class="u-16-google-ms-badge" src="./img/udaan-logos/google-plus42.png"></a>
+                  <a href="#"><img class="u-16-google-ms-badge" src="./img/udaan-logos/instagram42.png"></a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </section>
 </div>
 <!-- end:onepage_scroll container -->
