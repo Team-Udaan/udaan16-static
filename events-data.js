@@ -868,7 +868,7 @@ var eventsData = {
       "eventManagers": "Eva Khakkhkhar\nMegha Patel"
     },
     {
-      "eventName": "Subway Surfers",
+      "eventName": "Subway surfers",
       "round2Description": "The player with highest score will win.",
       "round1Description": "Participants will have to play Subway Surfers. Participating featuring in the top 20 highest scores will be qualified for the next round.(Mobile handsets will be provided)",
       "participants": "1",
