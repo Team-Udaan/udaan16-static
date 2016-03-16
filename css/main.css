@@ -97,9 +97,23 @@ textarea {
 
 /* begin:custom */
 
-.u16-dark-bg {
-  background-color: #000;
+/*.u16-grad {*/
+/*background: #ffffff;*/
+/*background: radial-gradient(ellipse at center, #ffffff 0%, #f6f6f6 47%, #ededed 100%);*/
+/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);*/
+/*}*/
+
+.u16-tech-bg {
+  background-image: url('../img/event-backgrounds/tech.svg');
 }
+
+.u16-non-tech-bg {
+  background-image: url('../img/event-backgrounds/non-tech.svg');
+}
+
+/*.u16-dark-bg {*/
+/*background-color: #000;*/
+/*}*/
 
 .owl.card {
   margin: 10px;
@@ -123,12 +137,6 @@ textarea {
   height: 90vh;
   display: block;
   margin: 0 auto;
-}
-
-.u16-grad {
-  background: #ffffff;
-  background: radial-gradient(ellipse at center, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
 }
 
 /* end:custom */
