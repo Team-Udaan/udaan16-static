@@ -27,14 +27,3 @@ jQDoc.ready(function () {
 });
 
 // end:bootstrap owl-carousel plugin
-
-// begin:canvas
-
-jQDoc.ready(function () {
-  $('#u16-canvas').particleground({
-    dotColor: '#5DB72D',
-    lineColor: '#0F7DAE'
-  });
-});
-
-// end:canvas
