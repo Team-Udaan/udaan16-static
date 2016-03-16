@@ -1,12 +1,78 @@
-Event Name - {{eventName}} <br><br>
-Event Description - {{eventDescription}} <br><br>
-Event Fees - {{fees}} <br><br>
-Event Participants - {{participants}} <br><br>
-Event Round 1 - {{round1Description}} <br><br>
-Event Round 2 - {{round2Description}} <br><br>
-Event Round 3 - {{round3Description}} <br><br>
-Event Event Managers - {{eventManagers}} <br><br>
-Event Contact Info - {{contactInfo}} <br><br>
-Event Email - {{email}} <br><br>
+<div>
 
-<img src="{{eventArt}}" alt="EventArt">
+  {{! Top Bar }}
+  <div class="row">
+    <div class="col s2">
+      <img src="{{eventArt}}" width="50" height="50" class="hide-on-med-and-up" alt="Event Art">
+      <img src="{{eventArt}}" width="72" height="72" class="hide-on-small-only" alt="Event Art">
+    </div>
+    <div class="col s10 center">
+      <h2 class="hide-on-small-only">{{eventName}}</h2>
+      <h4 class="hide-on-med-and-up">{{eventName}}</h4>
+    </div>
+  </div>
+
+  <hr>
+  <br>
+
+  {{! Participants and Fees }}
+  <div class="chip">
+    <span>Participants : </span>
+    {{participants}}
+  </div>
+
+  <div class="chip">
+    <span>Fees : </span>
+    {{fees}}
+  </div>
+
+  <br class="hide-on-med-and-up">
+  <br class="hide-on-med-and-up">
+
+  <div class="chip">
+    <span>Email : </span>
+    <a href="mailto:{{email}}">{{email}}</a>
+  </div>
+
+  <br>
+  <br>
+
+  {{! Accordion for Event Description and Round Descriptions }}
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header active">Event Description</div>
+      <div class="collapsible-body"><p class="flow-text">{{eventDescription}}</p></div>
+    </li>
+    {{#if round1Description}}
+      <li>
+        <div class="collapsible-header">Round 1</div>
+        <div class="collapsible-body"><p class="flow-text">{{round1Description}}</p></div>
+      </li>
+    {{/if}}
+    {{#if round2Description}}
+      <li>
+        <div class="collapsible-header">Round 2</div>
+        <div class="collapsible-body"><p class="flow-text">{{round2Description}}</p></div>
+      </li>
+    {{/if}}
+    {{#if round3Description}}
+      <li>
+        <div class="collapsible-header">Round 3</div>
+        <div class="collapsible-body"><p class="flow-text">{{round3Description}}</p></div>
+      </li>
+    {{/if}}
+  </ul>
+
+  <br>
+  <hr>
+  <br>
+
+  {{! Contact Info }}
+  {{#each managers}}
+    <div style="margin: 2px;" class="chip">
+      <span>{{name}} : </span>
+      <b>{{contact}}</b>
+    </div>
+  {{/each}}
+
+</div>

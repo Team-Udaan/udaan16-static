@@ -63,6 +63,7 @@ jQuery(document).ready(function ($) {
 
       // Jot down the data and bootstrap components
       foldingContent.html(Handlebars.templates.eventpage(event));
+      $('.collapsible').collapsible();
 
       // Hash-bang
       a.href = url;
