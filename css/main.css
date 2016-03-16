@@ -131,13 +131,29 @@ textarea {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
 }
 
-footer.page-footer{
+footer.u16-page-footer-margin{
   background-color: rgba(0,176,255,0.5);
+  //height: 30vh;
+  margin-top:0px;
+}
+
+@media only screen and (min-width: 768px) {
+  footer.u16-page-footer-margin{
+    background-color: rgba(0,176,255,0.5);
+    height: 40vh;
+    margin-top:0px;
+  }
 }
 
 img.u-16-google-ms-badge{
   max-height: 46px;
   margin-left: 1px;
+  margin-top: 5px;
+}
+a.btn{
+  height: 46px;
+  width:155.3px;
+  margin-top: 4px;
 }
 
 /* end:custom */
