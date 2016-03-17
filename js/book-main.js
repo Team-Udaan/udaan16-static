@@ -154,7 +154,7 @@ jQDoc.ready(function () {
     bgc = toRGBA($('#u16-bgc').css('background-color'), 0.4),
     bgi = 'url("img/event-backgrounds/' +
       (eventCategory.match(/(cultural|non-tech|nights|special-events-for-girls)/) ? 'non-tech' : 'tech') +
-      '.svg")';
+      '.png")';
 
   $('.cd-gallery >  li').each(function () {
     currentIndex == colors.length ? currentIndex = 0 : false;

@@ -108,11 +108,11 @@ textarea {
 }
 
 .u16-tech-bg {
-  background-image: url('../img/event-backgrounds/tech.svg');
+  background-image: url('../img/event-backgrounds/tech.png');
 }
 
 .u16-non-tech-bg {
-  background-image: url('../img/event-backgrounds/non-tech.svg');
+  background-image: url('../img/event-backgrounds/non-tech.png');
 }
 
 .owl.card {
