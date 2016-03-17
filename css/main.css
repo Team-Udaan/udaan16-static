@@ -108,11 +108,11 @@ textarea {
 }
 
 .u16-tech-bg {
-  background-image: url('../img/event-backgrounds/tech.png');
+  background-image: url('../img/event-backgrounds/tech.jpg');
 }
 
 .u16-non-tech-bg {
-  background-image: url('../img/event-backgrounds/non-tech.png');
+  background-image: url('../img/event-backgrounds/non-tech.jpg');
 }
 
 .owl.card {
@@ -120,6 +120,7 @@ textarea {
 }
 
 #u16-home, #u16-footer {
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 0;
 }
 
@@ -133,7 +134,8 @@ textarea {
 #google-container {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
+  max-height: 70vh;
   background-color: #e7eaf0;
 }
 
@@ -178,6 +180,17 @@ textarea {
   padding: 15%;
 }
 
+.u16-on-map-footer {
+  bottom: 0;
+  width: 100vw;
+  min-height: 30vh;
+  position: absolute;
+}
+
+.badges img {
+  max-height: 48px;
+}
+
 /* end:custom */
 
 /* begin:onepage-scroll.css */
@@ -187,6 +200,8 @@ body, html {
   -webkit-transition: opacity 400ms;
   -moz-transition: opacity 400ms;
   transition: opacity 400ms;
+  background: url(../img/cover-photo-color.jpg) center;
+  background-size: cover;
 }
 
 body, .onepage-wrapper, html {

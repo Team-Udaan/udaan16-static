@@ -43,10 +43,24 @@ jQDoc.ready(function ($) {
   }
 
   function toggleContent(url, bool) {
-    if (bool) {
-      /* load and show new content */
-      var foldingContent = foldingPanel.find('.cd-fold-content');
+    /* load and show new content */
+    var foldingContent = foldingPanel.find('.cd-fold-content');
 
+    if (bool && url == '#Branch Heads') {
+
+      // Jot down the data and bootstrap components
+      foldingContent.html(Handlebars.templates.branchheadspage(eventData.branchHeads));
+
+      // Hash-bang
+      location.hash = url;
+
+      $('body').addClass('overflow-hidden');
+      foldingPanel.addClass('is-open');
+      mainContent.addClass('fold-is-open');
+      return;
+    }
+
+    if (bool) {
       var event = getEvent(url.substr(1)),
         eventManagers = event.eventManagers.split('\n'),
         contactInfo = event.contactInfo.split('\n');
@@ -97,8 +111,8 @@ jQDoc.ready(function ($) {
   }
 
   function getEvent(eventName) {
-    for (var i = 0; i < eventData.length; i++) {
-      if (eventData[i].eventName == eventName) return eventData[i];
+    for (var i = 0; i < eventData.events.length; i++) {
+      if (eventData.events[i].eventName == eventName) return eventData.events[i];
     }
     throw 'Could not find event ' + eventName;
   }

@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "compile-eventpage": "handlebars ./js/templates/eventpage.handlebars -f ./js/templates/eventpage.min.js -m",
+    "compile-branchheadspage": "handlebars ./js/templates/branchheadspage.handlebars -f ./js/templates/branchheadspage.min.js -m",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

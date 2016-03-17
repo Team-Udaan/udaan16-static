@@ -87,7 +87,7 @@ var eventsData = {
     {
       "eventName": "Partners in Crime",
       "round2Description": "Clue to pathway leads to crossword which leads to logical questions.",
-      "round1Description": "Puzzle, match, rectify the errors, 4 pic 1 word.",
+      "round1Description": "Elimination round based on puzzle, matches, rectifying errors, etc",
       "participants": "2",
       "email": "hadiyajinny@gmail.com",
       "eventDescription": "Partners in crime, passion in rhymes!",
@@ -158,20 +158,20 @@ var eventsData = {
     },
     {
       "eventName": "Cricket Fantasy",
-      "round2Description": "Selected teams will select a 11 player teams from both the teams playing 2nd semifinal. \no\tTeams will receive points according to performance of their players in the match.\n",
-      "round1Description": "Round 1 will have 2 parts. Both will be considered. \n--> In first part, Each team will select any 5 players from both the teams playing 1st Semifinal of T20 world cup. The deadline to send the team is before the first ball is bowled for that match.Teams will receive points according to performance of their players in the match.You need to choose a captain from those 5 players whose points get doubled.All this stuff will be mailed to all participants.\n--> In 2nd part, A quiz on cricket will be taken.\n",
+      "round2Description": "Shortlisted teams will then have to submit an 11 player fantasy team by selecting players both the teams playing 2nd semifinal.\nTeams will receive points according to the rules established before\n",
+      "round1Description": "Round 1 will consist of two parts.\n- Part 1: Participants will have to submit their Fantasy Team of 5 players from the teams who are playing their first semi-final of ICC T20 World Cup 2016. This must be done before the semifinal begins. Participants will receive points according to the real-life performance of the players in their team. They will also have to select a captain whose performance points will be doubled\nPart 2: A quiz based on cricket will be taken",
       "participants": "2",
       "email": "pushpzala86@gmail.com",
       "eventDescription": "Bid for the best",
       "contactInfo": "8460670742\n8980048103\n9723515607",
       "fees": "30",
-      "round3Description": "In this round, Selected teams will be given list of the players. \no\tEach teams will have fixed budget. They will bid for players in auction they wanted.The team which make best team in budget, Will be declared winner. Your team must consist of:\n\t\tAt least 4 Batsmen\n\t\tAt least 1 All Rounder\n\t\t1 Wicketkeeper\n\t\tAt least 2 Bowlers\n",
+      "round3Description": "Finalists will be given a fixed budget and they will have to for a team by biding from a given list of players. Your team must consist of:\n\t\tAt least 4 Batsmen\n\t\tAt least 1 All Rounder\n\t\t1 Wicketkeeper\n\t\tAt least 2 Bowlers\n",
       "eventManagers": "Pushpraj Zala\nKishan Patel\nMayur Kaila"
     },
     {
       "eventName": "Tackeshi's castle",
-      "round2Description": "surprise round , they have to perform a task only",
-      "round1Description": "In this round we will give one ball and two balloon each team have to take that ball at required place with the help of balloon.",
+      "round2Description": "Surprise round",
+      "round1Description": "We will give one ball and two balloons to each team. They have to take that ball at specified place with the help of balloons.",
       "participants": "2",
       "email": "rjsagar24@gmail.com",
       "eventDescription": "Survival of the fittest",
@@ -182,38 +182,38 @@ var eventsData = {
     },
     {
       "eventName": "Mind Mystery",
-      "round2Description": "video graphy:-\nonly one question will be asked after one video.maximum time limit  to give The answer is 2 minute.correct answer (20 ) wrong answer (-10).\n",
-      "round1Description": "Spell-bee:-\n             8 pronunciations will be given to each group and time limit 2 minute.(10)points will be given to each correct answer.\n",
+      "round2Description": "Video Graphy:-\nOnly one question will be asked after one video. Time limit to give the answer is 2 minute. Correct answer 20 awarded, Wrong answer 10 deducted.\n",
+      "round1Description": "Spell-bee:-\n             8 pronunciations will be given to each group and time limit 2 minutes.(10)points will be awarded to each correct answer.\n",
       "participants": "2",
       "email": "chintanmaru7@gmail.com",
       "eventDescription": "Connect the dots",
       "contactInfo": "7600063064\n8866633989\n9727026048",
       "fees": "30",
-      "round3Description": "clue round:-\n          1.   3 clue will be given to candidate.\n            1st clue-hard\n            2 nd clue-medium\n            3 rd-easy\n         2.\n             1st clue (30) points\n             2 nd clue(20) points\n             3 rd clue(10) points\n",
+      "round3Description": "Clue round:-\n Three clues will be given with varying difficulty level",
       "eventManagers": "Maru Chintan\nJaydeep Vachhani\nJaydeep Vaghela"
     },
     {
       "eventName": "Finding Funny",
-      "round2Description": "they have to take a selfie with the required things, person ,etc",
-      "round1Description": "In this round we will give 25 to 30 name to all participants and they have to collect all that things.(things will be like a small pencil of wood, grass with v shape, etc which will be easy to find on campus only)",
+      "round2Description": "They have to take a selfie with the specified things, person ,etc",
+      "round1Description": "A list of 25 to 30 items, which are to be collected by the participants.",
       "participants": "1",
       "email": "chintanp325@gmail.com",
       "eventDescription": "Run for fun",
       "contactInfo": "8155954590\n7567910345\n9574427142",
       "fees": "20",
-      "round3Description": "we will give a map of BVM in different way and they have to solve that and perform required task.",
+      "round3Description": "We will give a map of BVM in a different way and they have to solve that and perform specified task.",
       "eventManagers": "Patel Chintan\nChauhan Shailesh\nGeet Vadher"
     },
     {
       "eventName": "SSB",
-      "round2Description": "Group task on set-up provided by team.",
+      "round2Description": "Group tasks on set-up provided by the organizers.",
       "round1Description": "Quiz based on mental ability and PPDT (Picture Perception and Discussion Test).",
       "participants": "1",
       "email": "savanivaibhav169@gmail.com",
       "eventDescription": "want be an officer? Be ready cadets. There is a chance for you.",
       "contactInfo": "7405139514\n7600889014",
       "fees": "20",
-      "round3Description": "Conference interview in front of panel of 7-8 jury.",
+      "round3Description": "Conference interview in front of panel of 7 to 8 jury members.",
       "eventManagers": "Vaibhav Savani\nKeval Italiya"
     },
     {
@@ -246,7 +246,7 @@ var eventsData = {
       "round1Description": "",
       "participants": "2 or 3",
       "email": "poorvam@gmail.com",
-      "eventDescription": "Not everything can be achieved in a minute except few. Can you?\nInteresting games are to be completed by participants in team in one minute.",
+      "eventDescription": "Not everything can be achieved in a minute except few. Can you?\nInteresting tasks are to be completed by the participants in one minute.",
       "contactInfo": "8460862215\n7405588942\n7405588942",
       "fees": "10/person",
       "round3Description": "",
@@ -400,8 +400,8 @@ var eventsData = {
     },
     {
       "eventName": "Tansing",
-      "round2Description": "singing competition of shortlisted participants with one accompanist or karaoke.",
-      "round1Description": "shortlisting from audio videos received by mails",
+      "round2Description": "Live performance of shortlisted participants with one accompanist or karaoke.",
+      "round1Description": "Participants need to send an audio and a video file as their audition(genre: Bollywood/Western/Classical). Selected participants will be contacted via email. Time limit 2-3 minutes.",
       "participants": "1",
       "email": "janitirth17110@gmail.com",
       "eventDescription": "Showcase your talent in singing",
@@ -412,35 +412,34 @@ var eventsData = {
     }
   ],
   "tech": {
-    "Civil": [
-      {
+    "Civil": {
+      "events": [
+        {
         "eventName": "Bob The Builder",
         "round2Description": "",
         "round1Description": "",
         "participants": "Max 3",
         "email": "utsavi1410@gmail.com",
-        "eventDescription": "It's not only how much load you can bare, keeping the balance is also important.\n\nParticipants in team have to build a crane mechanism in 3 hours using popsicle sticks. Thread will be provided for lifting weight. All materials will be provided by management. Crane lifting maximum weight will be declared as winners",
+          "eventDescription": "It's not only how much load you can bear, keeping balance is also important.\n\nParticipants will have to build a crane mechanism in 3 hours using popsicle sticks. Thread will be provided for lifting weight. All materials will be provided. The crane which lifts the maximum amount of weight will be the winner.",
         "contactInfo": "8980508325\n8460862215\n9725039877",
         "fees": "60",
         "round3Description": "",
         "eventManagers": "Utsavi Pachhigar\nDeven Gajjar\nAnand Limbad"
-      },
-      {
+        }, {
         "eventName": "Soil-a-Arch",
         "round2Description": "",
         "round1Description": "",
         "participants": "2 or 3 ",
         "email": "deepbhalani55@gmail.com",
-        "eventDescription": "Shape your idea with clay.\nParticipants have to build a soil arch using clay bricks. Bricks are to be formed by clay and on next day arch is to be made using that bricks. Weights will be kept on arch for testing and team whose arch is highest load bearing is winner",
+          "eventDescription": "Shape your idea with clay.\nParticipants will have to build a soil arch using clay bricks. Bricks are to be made from the clay provided on the first day. On next day, arch is to be built using those bricks. Weights will be kept on the arch for testing purposes and the team which has the highest arch and bears the most waight wins.",
         "contactInfo": "9998140702\n7600120963\n7698767656",
         "fees": "60",
         "round3Description": "",
         "eventManagers": "Deep Bhalani\nAmit Ratnani\nPratik Patel"
-      },
-      {
+        }, {
         "eventName": "Real estate",
-        "round2Description": "Teams will be provided virtual money and they are supposed to bid on different properties shown on map (provided by management) and different conditions will be given like highway proposal, new bridge construction, legal documentation, etc.",
-        "round1Description": "Business quiz related to conditions, situations, future changes risks, etc. (Mostly related to civil engineering) ",
+          "round2Description": "Teams will be provided with virtual money, using which they are supposed to bid on the different properties shown on map (provided by management) and then different projects will be given like highway proposal, new bridge construction, legal documentation, etc.",
+          "round1Description": "Business quiz related to conditions, situations, future changes risks, etc. Related to civil engineering.",
         "participants": "2 or 3 ",
         "email": "nrgohil9292@gmail.com",
         "eventDescription": "Whole lot of common sense and civil engineering knowledge will lead you towards higher profit in real estate.",
@@ -448,47 +447,60 @@ var eventsData = {
         "fees": "40",
         "round3Description": "",
         "eventManagers": "Nayan Gohil\nJenish Kamani"
-      },
-      {
+        }, {
         "eventName": "Ignited Minds",
-        "round2Description": "Picture Perception of famous civil structures. Hint will be provided",
-        "round1Description": "Logical and conceptual MCQ questions based on basic civil engineering.",
+          "round2Description": "Picture Perception: Famous civil structures will be shown with hints. Teams will have to name the structures.",
+          "round1Description": "Quiz which contains logical and conceptual questions related to civil basic engineering.",
         "participants": "1 or 2 ",
         "email": "nikhilchaudhri567@gmail.com",
         "eventDescription": "Theory to practically. Here CPI is of no concern. How good you are at concept will be checked",
         "contactInfo": "7600032638\n9723757348",
         "fees": "30/person",
-        "round3Description": "Real life problems will be given and participants have to give most feasible, economical and effective solution and is to be presented in front of jury.",
+          "round3Description": "Real life problems will be given to the participants and they will have to present an economically feasible and effective solution to the jury.",
         "eventManagers": "Nikhil Chaudhri\nAnkush Pandita"
-      },
-      {
+        }, {
         "eventName": "Kabelzubia(Bridge)",
         "round2Description": "",
         "round1Description": "",
         "participants": "2 or 3 ",
         "email": "kartik.ska303@gmail.com",
-        "eventDescription": "With candy stick and rope, make a bridge of hope.\nParticipants have to build Cable Bridge using popsicle sticks and thread. All required materials and dimensions of bridge will be provided by management. Bridge which will be able to bear maximum load will be winner. Time: 3 hours",
+          "eventDescription": "With candy stick and rope, make a bridge of hope.\nParticipants will have to build a cable bridge using popsicle sticks and thread. All required materials and dimensions will be provided. The team which produces a bridge which is able to bear the maximum load will be the winner. Time given to the participants would be 3 hours",
         "contactInfo": "9429932136\n9714383891\n9662838425",
         "fees": "60",
         "round3Description": "",
         "eventManagers": "Kartik Sarkhejia\nHiren Patel\nUmang Jadav"
-      },
-      {
+        }, {
         "eventName": "Civil Hunt",
-        "round2Description": "Solve clue with help of surveying instruments.",
+          "round2Description": "Participants will have to solve clues with the help of surveying instruments.",
         "round1Description": "Quiz based on general knowledge of famous civil structures and basic surveying.",
         "participants": "2,3",
         "email": "mehalkotadiya44@gmail.com",
         "eventDescription": "To achieve your goal direction is needed; knowledge is important & implementation is must",
         "contactInfo": "8866713273\n9586938034\n9586594389",
         "fees": "30",
-        "round3Description": "Simple geometric shapes will be given to team and they have to draw it on ground on very large scale using surveying instruments.",
+          "round3Description": "Simple geometric shapes will be given to the team and they will have to draw the same on the ground on a larger scale using surveying instruments.",
         "eventManagers": "Malhar Kothari\nMehal Kotadiya\nKhushbu Gohel"
+        }],
+      "branchHeads": {
+        "heads": [{
+          "name": "Malav Desai",
+          "mobile": "9429789983"
+        }, {
+          "name": "Khanjan Kanani",
+          "mobile": "9426519319"
+        }],
+        "coheads": [{
+          "name": "Vatsal Jariwala",
+          "mobile": "7383048150"
+        }, {
+          "name": "Niyati Kanani",
+          "mobile": "9033594044"
+        }]
       }
-    ],
-    "Prod": [
-      {
-        "round1Description": "The participant team will be shown a demo of making an Ornithopter. Each team will make their Ornithhopter in the allotted time and judging will based on the time of flight and distance covered (material will be provided)",
+    },
+    "Prod": {
+      "events": [{
+        "round1Description": "The participating team will be shown a demo of making an Ornithopter. Each team will then make an Ornithopter in the allotted time and judging will based on the time of flight and distance covered (material will be provided)",
         "eventManagers": "Manan Joshi\nPinal Rana\nVraj Patel",
         "contactInfo": "9662549148\n9662411693\n9978998929",
         "participants": "2",
@@ -496,46 +508,59 @@ var eventsData = {
         "fees": "50",
         "email": "manan55046@gmail.com",
         "eventDescription": "Ornithopter- Learn, Make & Let it fly high."
-      },
-      {
+      }, {
         "round1Description": "It is a screening round, a quiz based on EME, MOS, EG, general knowledge, aptitude, verbal ability, etc.",
         "eventManagers": "Neel Prajapati\nPrabhav Joshi",
         "contactInfo": "9099614787\n7405589552",
         "eventName": "Pro-mech Hunting",
-        "round2Description": "There will be a Treasure Hunt, clues would be Tech and Non-Tech both. The answers they'll get from the clues will have questions for case study in the final round. ",
+        "round2Description": "There will be a Treasure Hunt, clues would be Tech and Non-Tech both. The answers they'll get from the clues will have questions for case study in the final round.",
         "fees": "30",
         "round3Description": "Participants have to prepare a case study based on clues received in the second round. They will have to present it in the form of detailed representation on the provided sheets to the jury. Jury will then declare the final winner.",
         "participants": "2",
         "email": "prabhavjoshi007@gmail.com",
         "eventDescription": "First Answer, then find a Clue & lastly present the Case."
-      },
-      {
+      }, {
         "round1Description": "A quiz based on concepts of Reverse Engineering.",
         "eventManagers": "Isha Modi\nVishal Lapsiwala",
         "contactInfo": "8128261647\n9712138577",
         "eventName": "Reverse Engineering",
-        "round2Description": "A working toy will be shown to the selected teams. After some time the same toy will be given to the teams in a dis-assembled form. Their task would be to re-assemble the toy without any component being left out. A certain time period will be fixed for the task. ",
+        "round2Description": "A working toy will be shown to the selected teams. After some time the same toy will be given to the teams in a dissembled form. Their task would be to assemble the toy without any component being left out. A certain time period will be fixed for the task.",
         "fees": "30",
         "round3Description": "",
         "participants": "2",
         "email": "lapsiwalavishal@gmail.com",
         "eventDescription": "Be the Phunsukh Wangdu (3 idiots). Re-assemble it & see what's left out."
-      },
-      {
-        "round1Description": "The teams have to analyze the problem based on principles of physics & will have to predict the reason and justify their answers as per their analysis.",
+      }, {
+        "round1Description": "The teams will have to analyze a problem based on principles of physics and will have to predict the reason and justify their answers as per their analysis.",
         "eventManagers": "Murtuza Boriwala\nKaran Kamani\nBhavik Patoliya",
         "contactInfo": "9427834082\n9426638903\n7600586522",
         "eventName": "The Psycho Physicist",
-        "round2Description": "It is based on Goldberg Mechanism. They will have to use the given props and have to create a \"ON THE GO MACHINE\"  type mechanism. ",
+        "round2Description": "It is based on Goldberg Mechanism. They will have to use the given props and have to create an \"ON THE GO MACHINE\"  type mechanism. ",
         "fees": "40",
         "round3Description": "",
         "participants": "2",
         "email": "karan.kamani04@yahoo.com",
         "eventDescription": "Get back to the class of Physics and then go on \"ON THE GO MACHINE\"."
+      }],
+      "branchHeads": {
+        "heads": [{
+          "name": "Yusuf Kapasi",
+          "mobile": "9601399952"
+        }, {
+          "name": "Rutvik Brahmbhatt",
+          "mobile": "7600866589"
+        }],
+        "coheads": [{
+          "name": "Krushal Kakadiya",
+          "mobile": "8690777933"
+        }, {
+          "name": "Dhruvit Kardani",
+          "mobile": "9638392707"
+        }]
       }
-    ],
-    "Mech": [
-      {
+    },
+    "Mech": {
+      "events": [{
         "fees": "20",
         "eventManagers": "Akshay Karmur\nPujit Sarvaiya",
         "participants": "2",
@@ -545,8 +570,7 @@ var eventsData = {
         "eventDescription": "Every action has a reaction!",
         "email": "akshaykarmur@gmail.com",
         "contactInfo": "9601670626\n9409081166"
-      },
-      {
+      }, {
         "email": "nikunj671314@gmail.com",
         "participants": "2",
         "eventName": "Sharp Shooter",
@@ -557,8 +581,7 @@ var eventsData = {
         "fees": "20",
         "round2Description": "The participants will have to shoot a circular target board.",
         "eventManagers": "Nikunj Gajera\nNirav Bhatt"
-      },
-      {
+      }, {
         "email": "mehulzare31795@gmail.com",
         "participants": "2",
         "eventName": "Mechchase",
@@ -569,8 +592,7 @@ var eventsData = {
         "fees": "20",
         "round2Description": "Selected teams will have to solve a riddle which gives them the next clue.",
         "eventManagers": "Mehul Zare\nMohit Raina\nRajdeepsinh Ravalji"
-      },
-      {
+      }, {
         "email": "pare.ramani@gmail.com",
         "participants": "2",
         "eventName": "Hydrobounze",
@@ -581,8 +603,7 @@ var eventsData = {
         "fees": "40",
         "round2Description": "Participants will have to prepare a Boat from the material provided by us and check its performance.",
         "eventManagers": "Paras Ramani\nMilan Kachhadiya\nKapil Tala"
-      },
-      {
+      }, {
         "email": "nitinnathani231195@gmail.com",
         "participants": "1",
         "eventName": "CAD Mania",
@@ -593,8 +614,7 @@ var eventsData = {
         "fees": "20",
         "round2Description": "The participants will be given time to practice. (1 to 1.5 Hours)",
         "eventManagers": "Nitin Nathani\nKavan Shah\nDeep Bhanushali"
-      },
-      {
+      }, {
         "email": "adib.only@gmail.com",
         "participants": "2",
         "eventName": "Auto Techno",
@@ -605,8 +625,7 @@ var eventsData = {
         "fees": "20",
         "round2Description": "Car Comparison.",
         "eventManagers": "Ravi Kasodariya\nM. Adib Havaldar"
-      },
-      {
+      }, {
         "email": "karamta444@gmail.com",
         "participants": "2",
         "eventName": "Cavador",
@@ -617,10 +636,26 @@ var eventsData = {
         "fees": "20",
         "round2Description": "",
         "eventManagers": "Mayur Karamta\nAkshay Patel\nDixit Kansagara"
+      }],
+      "branchHeads": {
+        "heads": [{
+          "name": "Krunal Sangani",
+          "mobile": "9724272248"
+        }, {
+          "name": "Apoorva Parikh",
+          "mobile": "9429665481"
+        }],
+        "coheads": [{
+          "name": "Prashant Goti",
+          "mobile": "9825189691"
+        }, {
+          "name": "Anurag Raulji",
+          "mobile": "8460109955"
+        }]
       }
-    ],
-    "CPIT": [
-      {
+    },
+    "CPIT": {
+      "events": [{
         "eventName": "OS Revolution",
         "round2Description": "open book surprise round.",
         "round1Description": "Quiz on general knowledge of operating system.(ex. Name latest android OS)",
@@ -631,8 +666,7 @@ var eventsData = {
         "fees": "20",
         "round3Description": "",
         "eventManagers": "Urja Solanki\nJitendra Solanki"
-      },
-      {
+      }, {
         "eventName": "Huntware",
         "round2Description": "Treasure Hunt",
         "round1Description": "Hardware Quiz",
@@ -643,8 +677,7 @@ var eventsData = {
         "fees": "20",
         "round3Description": "Surprise Round",
         "eventManagers": "Dipen Kadecha\nArchana Chavda\nAbhishek Mehta"
-      },
-      {
+      }, {
         "eventName": "<TAGS>",
         "round2Description": "One has to draw picture and team members have to identify the word from picture.",
         "round1Description": "Treasure hunt on html/CSS/JavaScript.",
@@ -655,44 +688,40 @@ var eventsData = {
         "fees": "20",
         "round3Description": "bidding on tags and web developing.",
         "eventManagers": "Mayank Mittal\nVinita Vaswani"
-      },
-      {
+      }, {
         "eventName": "Ultimate Coding Challenge",
-        "round2Description": "Two members will be given two different programs to solve independently.",
+        "round2Description": "Two members will be given two different programs to solve independently. One encryption program needs to be solved by both the team members together.",
         "round1Description": "Buzzer round on C and C++.",
         "participants": "2",
         "email": "yash.sonani94@gmail.com",
         "eventDescription": "Buzz,Code,Distract",
         "contactInfo": "9725599099\n9429570707\n8401607277 ",
         "fees": "20",
-        "round3Description": "Open ground Programming.",
+        "round3Description": "Programming at places with distractions.",
         "eventManagers": "Yash Sonani\nShrey Vyas\nJay Thacker"
-      },
-      {
+      }, {
         "eventName": "Office Suite",
-        "round2Description": "Debate on technical topic.",
-        "round1Description": "Purely windows based quiz.",
+        "round2Description": "Teams will have to debate on technical topics given to them.",
+        "round1Description": "Quiz based on Microsoft Windows.",
         "participants": "1",
         "email": "ushashah1811@gmail.com",
         "eventDescription": "Be like Bill",
         "contactInfo": "9725086562\n9408723115",
         "fees": "20",
-        "round3Description": "Windows office suite.\nCreate a newsletter in word\nCreate a poster in PowerPoint presentation\nCreate a excel sheet as given by organizer\n",
+        "round3Description": "Tasks based on Windows Office would be given.\nCreate a newsletter in Word.\nCreate a poster in PowerPoint.\nCreate an Excel sheet on the given data.\n",
         "eventManagers": "Usha Shah\nRiddhi Dave"
-      },
-      {
+      }, {
         "eventName": "Battle Code",
-        "round2Description": "Simple code is given to write with their monitors' screen which would be rotated 180 degrees and keyboards will be reversed.",
-        "round1Description": "computer world, programming languages, current affairs related quiz.",
+        "round2Description": "Teams will have to code a simple program on monitor screens and keyboards which are rotated by 180 degrees.",
+        "round1Description": "Quiz related to programming languages, current affairs and the world of computer.",
         "participants": "2",
         "email": "kthanky@gmail.com",
         "eventDescription": "Your troops are ready for battle",
-        "contactInfo": "9624170530\n951014059",
+        "contactInfo": "9624170530\n9510104059",
         "fees": "20",
         "round3Description": "10-15 blocks of code will be given to participants, they have to use those blocks or logic of those blocks and the team to come up with a logical piece of code within minimum time",
         "eventManagers": "Pinal Meruliya\nKunal Thanki"
-      },
-      {
+      }, {
         "eventName": "BAT",
         "round2Description": "Program will be given in any programming language, participants have to convert it in C/C++ by understanding the logic.",
         "round1Description": "there will be technical quiz based on C/C++, basics of IT/CP, crossword, aptitude",
@@ -703,10 +732,46 @@ var eventsData = {
         "fees": "20",
         "round3Description": "One member will be given definition and other will play snake & ladder.",
         "eventManagers": "Dhwani Bhansali\nParth Upadhyay"
+      }],
+      "branchHeads": {
+        "heads": [{
+          "name": "Meet Anadkat",
+          "mobile": "9429569075"
+        }, {
+          "name": "Mohit Sanghvi",
+          "mobile": "9067034501"
+        }, {
+          "name": "Rudrik Soni",
+          "mobile": "8460394107"
+        }, {
+          "name": "Arvind Iyer",
+          "mobile": "9687181987"
+        }],
+        "coheads": [{
+          "name": "Maunil Swadas",
+          "mobile": "9427592587"
+        }, {
+          "name": "Hit Patel",
+          "mobile": "9033661622"
+        }, {
+          "name": "Meet Shah",
+          "mobile": "8460727493"
+        }]
       }
-    ],
-    "ETEL": [
-      {
+    },
+    "ETEL": {
+      "events": [{
+        "eventName": "Bot Ball",
+        "round2Description": "Teams will be competing against each other with a number of obstacles on the field. The objective of this round is to get the maximum number of goals.",
+        "round3Description": "Surprise Round.",
+        "eventDescription": "Let the Bot do the Talk!",
+        "contactInfo": "7874536826\n8980536577\n8469642999\n9712035211",
+        "fees": "40",
+        "eventManagers": "Siddhraj Gogre\nKishan Avasthi\nSarfaraj Noor\nSagar Tank",
+        "round1Description": "Teams will have to make goals in pits and the team which finishes first will move on to the next round.",
+        "email": "noorsarfaraj@yahoo.in",
+        "participants": "2"
+      }, {
         "eventName": "Imperial Race",
         "round2Description": "Crossing the maze. 4 teams compete in the maze. The team which finishes first, will be eligible for the next round.",
         "round3Description": "Conquering enemy territories. The teams will have to collect flags on a defined course to reach the enemy territory.",
@@ -717,8 +782,7 @@ var eventsData = {
         "round1Description": "Hurdle race. Based on the point table, the teams will qualify for the next round.",
         "email": "kotharimahak9@gmail.com",
         "participants": "3"
-      },
-      {
+      }, {
         "eventName": "Crack The Nut",
         "round2Description": "Technical Debate between two teams on a given topic. Preparation time will be given. Use of Internet is allowed for research.",
         "round3Description": "Hypothetical problem cases will be given. Participants will have to come up with a solution within the given time. Use of internet is not allowed for research.",
@@ -729,8 +793,7 @@ var eventsData = {
         "round1Description": "Technical Quiz.",
         "email": "surajkantsingh007@gmail.com",
         "participants": "2"
-      },
-      {
+      }, {
         "eventName": "Crazy Code",
         "round2Description": "The teams will be given incomplete circuits and the missing components will be placed at different locations. By following the solution of these clues, the circuit will be completed with missing components and the top 5 teams will move to the final rounds. The deciding factor will be time.",
         "round3Description": "Surprise.",
@@ -741,8 +804,7 @@ var eventsData = {
         "round1Description": "One member gets the code and has to convey it in a given form using laser pointers. The other person, being the receiver decodes the received message. The time taken to decode the message will be noted down and the teams will be short- listed accordingly.",
         "email": "smsmaurya16@gmail.com",
         "participants": "2"
-      },
-      {
+      }, {
         "eventName": "Code-e-Tronics",
         "round2Description": "Arduino based coding.",
         "round3Description": "Students have to simulate an Arduino program using Proteus.",
@@ -753,8 +815,7 @@ var eventsData = {
         "round1Description": "Quiz based on C language and Arduino programming.",
         "email": "nirav.kalathiya9@gmail.com",
         "participants": "2"
-      },
-      {
+      }, {
         "eventName": "Electro Charades",
         "round2Description": "Based on a technical treasure hunt, the participants would solve a crossword puzzle (Across+Down).",
         "round3Description": "Technical Dumb Charades + Wildcard Entry(payable on the day of the event)",
@@ -765,8 +826,7 @@ var eventsData = {
         "round1Description": "Participants would guess the name of the component or circuits shown on the screen. A total of approximately 30 pictures will be shown. Each picture will be shown for 10 seconds.",
         "email": "kariyakrishna@yahoo.com",
         "participants": "2"
-      },
-      {
+      }, {
         "eventName": "Wall-E-Tronics",
         "round2Description": "Each team will have to answer at least 1 question from the 10 set of different questions of varying difficulty levels. There are points which will be given to the team for each correctly answered question.",
         "round3Description": "Using creativity, they have to purchase components with the points they obtained and implement a circuit using the purchased components.",
@@ -777,70 +837,114 @@ var eventsData = {
         "round1Description": "Both participants will individually solve a crossword puzzle and their average scores will be calculated for further shortlisting.",
         "email": "charanrajshetty1993@gmail.com",
         "participants": "2"
+      }],
+      "branchHeads": {
+        "heads": [{
+          "name": "Sidhant Ghadse",
+          "mobile": "9687348141"
+        }, {
+          "name": "Jigar Pankhaniya",
+          "mobile": "9033413795"
+        }, {
+          "name": "Jigar Joshi",
+          "mobile": "9426818768"
+        }, {
+          "name": "Niral Prajapati",
+          "mobile": "8460459726"
+        }],
+        "coheads": [{
+          "name": "Ankur Busa",
+          "mobile": "9725926075"
+        }, {
+          "name": "Prachi Jhala",
+          "mobile": "9978718283"
+        }, {
+          "name": "Harshwardhan Patel",
+          "mobile": "7405922499"
+        }, {
+          "name": "Jay Jataniya",
+          "mobile": "9033560213"
+        }
+
+        ]
       }
-    ],
-    "EE": [
-      {
+    },
+    "EE": {
+      "events": [{
         "eventName": "Crack It",
-        "round2Description": "Diffusing the bomb which is in the form of digital circuits (Logic Gates)",
-        "round1Description": "Basic quiz on analogue and digital IC's",
+        "round2Description": "Teams will have to defuse a bomb which is in form of digital circuit.",
+        "round1Description": "Participants will have to study a circuit provided to them and then answer questions besed on it.",
         "participants": "2(Mix)",
         "email": "jajalkrunal@gmail.com",
         "eventDescription": "Diffuse the bomb and steal the diamond",
         "contactInfo": "9428661026\n9687720766\n9998216831",
         "fees": "40",
-        "round3Description": "Stealing the diamond by clearing the Security System",
+        "round3Description": "participants will have to stealing the diamond by clearing the Security System",
         "eventManagers": "Krunal Jajal\nVatsal Jethva\n Kushagra Shah"
-      },
-      {
+      }, {
         "eventName": "Power Rangers",
-        "round2Description": "Identify the various equipment of the power plant shown in the presentation ",
-        "round1Description": "Basic quiz on Power plant",
+        "round2Description": "Teams will have to identify the various equipments of the power plant shown in the presentation.",
+        "round1Description": "Quiz with basic questions related to power plants.",
         "participants": "1",
         "email": "sagarvala1996@gmail.com",
         "eventDescription": "Prepare yourself for producing energy.",
         "contactInfo": "9099253225\n9033875080",
         "fees": "20",
-        "round3Description": "Endorse yourself and debate with the rest of your power plant as in you are a Power plant",
+        "round3Description": "Endorse yourself and debate with the rest of your power plant.",
         "eventManagers": "Sagar Vala\nJinesh Thakkar"
-      },
-      {
+      }, {
         "eventName": "The Machinist",
         "round2Description": "Viva on basic problems of electrical machines.",
-        "round1Description": "Quiz on machines",
+        "round1Description": "Quiz with questions related to electrical machines",
         "participants": "1",
         "email": "kamalvaghasiya@gmail.com",
         "eventDescription": "Be a master and rule the machine.",
         "contactInfo": "9687152247\n9558615556",
         "fees": "20",
-        "round3Description": "Performing actual tests on the electrical Lab . ",
+        "round3Description": "Performance of test in electrical laboratories.",
         "eventManagers": "Kamal Vaghasiya\nJenis Jasani"
-      },
-      {
+      }, {
         "eventName": "Wireman",
-        "round2Description": "we will give equivalent resistance and participants have to make series parallel combination and make one circuit which have total resistance which was given by us (they also have to identify resistance of resistor base on colour-code) ",
-        "round1Description": "Quiz on basics of electrical.",
+        "round2Description": "Equivalent resistance will be given and participants will have to make a circuit which has total resistance given to them. They will also have to identify the resistance of a resister by using colour codes.",
+        "round1Description": "Quiz related to basics of electrical engineering.",
         "participants": "2",
         "email": "mehulsurani20132@gmail.com",
         "eventDescription": "Illuminate your house by wiring skills.",
         "contactInfo": "9998044886\n9998922864",
         "fees": "30",
-        "round3Description": "Designing a Detailed wiring system of a house in a drawing sheet.",
+        "round3Description": "Teams will have to design a detailed wiring system of a house on a drawing sheet.",
         "eventManagers": "Mehul Surani\nBhavik Lathiya"
-      },
-      {
+      }, {
         "eventName": "Twisted Electrica",
-        "round2Description": "Treasure hunt ",
-        "round1Description": "Electrical + Basic Electronics Crossword",
+        "round2Description": "Treasure hunt",
+        "round1Description": "Teams will have to complete a crossword based on Electrical and Basic Electronics questions.",
         "participants": "2",
         "email": "shalingandhi1996@gmail.com",
         "eventDescription": "Be the pirates of electrica.",
         "contactInfo": "9427178331\n9275043789",
         "fees": "40",
-        "round3Description": "Based on the points of the first two rounds you will be given virtual money that will be used  to buy the components for making a mini project and selling it to the jury.",
+        "round3Description": "Based on the points obtained in the first two rounds,teams will be given virtual money. The money will be used to buy components for making a mini-project and then selling it to the jury.",
         "eventManagers": "Shalin Gandhi\nKarthik Kanzariya"
+      }],
+      "branchHeads": {
+        "heads": [{
+          "name": "Mayank Kava",
+          "mobile": "9998707091"
+        }, {
+          "name": "Bhavik Parekh",
+          "mobile": "9426068048"
+        }],
+        "coheads": [{
+          "name": "Bhatt Harsh",
+          "mobile": "8460678411"
+        }, {
+          "name": "Viral Bhimani",
+          "mobile": "8671921333"
+        }
+
+        ]
       }
-    ]
+    }
   },
   "specialEventsForGirls": [
     {
@@ -858,7 +962,7 @@ var eventsData = {
     {
       "eventName": "Dhinchak Damsells",
       "round2Description": "Participants will have to show their creative skills and do a makeover. There will be a twist",
-      "round1Description": "Participants will have to solve a crossword puzzle using the clues given",
+      "round1Description": "Participants will have to solve a crossword puzzle using the given clues",
       "participants": "1",
       "email": "evakhakkhkhar@gmail.com",
       "eventDescription": "Solve crossword show your creative skills and see whats left out!Q",
