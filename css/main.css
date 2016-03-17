@@ -183,6 +183,10 @@ textarea {
   background-position: 50% -32px;
 }
 
+.card-image > a > img {
+  padding: 10%;
+}
+
 /* end:custom */
 
 /* begin:onepage-scroll.css */
