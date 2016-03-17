@@ -1,8 +1,7 @@
 jQuery(document).ready(function ($) {
   var gallery = $('.cd-gallery'),
     foldingPanel = $('.cd-folding-panel'),
-    mainContent = $('.cd-main'),
-    a = document.createElement('a');
+    mainContent = $('.cd-main');
 
   /* open folding content */
   gallery.on('click', 'a', function (event) {
@@ -66,8 +65,7 @@ jQuery(document).ready(function ($) {
       $('.collapsible').collapsible();
 
       // Hash-bang
-      a.href = url;
-      a.click();
+      location.hash = url;
 
       $('body').addClass('overflow-hidden');
       foldingPanel.addClass('is-open');
@@ -92,7 +90,7 @@ jQuery(document).ready(function ($) {
   }
 
   function viewportSize() {
-    /* retrieve the content value of .cd-main::before to check the actua mq */
+    /* retrieve the content value of .cd-main::before to check the actual mq */
     return window.getComputedStyle(document.querySelector('.cd-main'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, "");
   }
 
@@ -109,5 +107,30 @@ jQuery(document).ready(function ($) {
 
   function hyphenify(string) {
     return string.replace(/\s/g, '-').replace(/[<>]/g, '').toLowerCase();
+  }
+
+  function hashChange() {
+    if (location.hash) {
+      toggleContent(location.hash, true);
+    } else {
+      var mq = viewportSize();
+      foldingPanel.removeClass('is-open');
+      mainContent.removeClass('fold-is-open');
+
+      (mq == 'mobile' || $('.no-csstransitions').length > 0 )
+        /* according to the mq, immediately remove the .overflow-hidden or wait for the end of the animation */
+        ? $('body').removeClass('overflow-hidden')
+
+        : mainContent.find('.cd-item').eq(0).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function () {
+        $('body').removeClass('overflow-hidden');
+        mainContent.find('.cd-item').eq(0).off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+      });
+    }
+  }
+
+  $(window).on('hashchange', hashChange);
+
+  if (location.hash) {
+    toggleContent(location.hash, true);
   }
 });
