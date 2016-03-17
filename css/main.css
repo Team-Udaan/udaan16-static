@@ -97,6 +97,10 @@ textarea {
 
 /* begin:custom */
 
+.u16-grey {
+  background-color: #f6f6f6;
+}
+
 .u16-grad {
   background: #ffffff;
   background: radial-gradient(ellipse at center, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
