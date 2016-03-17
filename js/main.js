@@ -16,12 +16,12 @@ jQDoc.ready(function () {
 
 jQDoc.ready(function () {
   $('#u16-tech-event-carousel').owlCarousel({
-    autoPlay: 2000,
+    autoPlay: 4000,
     items: 6
   });
 
   $('#u16-non-tech-event-carousel').owlCarousel({
-    autoPlay: 2000,
+    autoPlay: 4000,
     items: 4
   });
 });
