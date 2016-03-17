@@ -183,8 +183,8 @@ textarea {
   background-position: 50% -32px;
 }
 
-.card-image > a > img {
-  padding: 10%;
+.card-image img {
+  padding: 15%;
 }
 
 /* end:custom */
