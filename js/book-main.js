@@ -1,4 +1,6 @@
-jQuery(document).ready(function ($) {
+var jQDoc = $(document);
+
+jQDoc.ready(function ($) {
   var gallery = $('.cd-gallery'),
     foldingPanel = $('.cd-folding-panel'),
     mainContent = $('.cd-main');
@@ -133,4 +135,39 @@ jQuery(document).ready(function ($) {
   if (location.hash) {
     toggleContent(location.hash, true);
   }
+});
+
+// Color tiles and background
+jQDoc.ready(function () {
+  var colors = [
+      'red',
+      'indigo',
+      'pink',
+      'deep-purple',
+      'green',
+      'blue',
+      'deep-orange',
+      'cyan',
+      'teal'
+    ],
+    currentIndex = 0,
+    bgc = toRGBA($('#u16-bgc').css('background-color'), 0.4),
+    bgi = 'url("img/event-backgrounds/' +
+      (eventCategory.match(/(cultural|non-tech|nights|special-events-for-girls)/) ? 'non-tech' : 'tech') +
+      '.svg")';
+
+  $('.cd-gallery >  li').each(function () {
+    currentIndex == colors.length ? currentIndex = 0 : false;
+    $(this).addClass(colors[currentIndex++]);
+  });
+
+  $('body')[0].style.background = bgc + ' ' + bgi;
+
+  function toRGBA(colorString, alpha) {
+    return 'rgba' +
+      colorString.match(/\(.*\)/).toString().replace(')', ', ') +
+      alpha +
+      ')';
+  }
+
 });
