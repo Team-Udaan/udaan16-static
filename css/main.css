@@ -120,13 +120,20 @@ textarea {
 }
 
 #u16-home, #u16-footer {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 0;
 }
 
 #u16-logo {
-  max-width: 90vw;
-  height: 90vh;
+  max-width: 45vw;
+  height: 45vh;
+  display: block;
+  margin: 0 auto;
+}
+
+#u16-text {
+  max-width: 45vw;
+  height: 45vh;
   display: block;
   margin: 0 auto;
 }
@@ -185,6 +192,7 @@ textarea {
   width: 100vw;
   min-height: 30vh;
   position: absolute;
+  padding: 5vh 0;
 }
 
 .badges img {
