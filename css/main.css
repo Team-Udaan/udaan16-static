@@ -128,7 +128,7 @@ textarea {
   max-width: 45vw;
   height: 45vh;
   display: block;
-  margin: 0 auto;
+  margin: 10vh auto 0;
 }
 
 #u16-text {
