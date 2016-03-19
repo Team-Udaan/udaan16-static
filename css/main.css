@@ -185,6 +185,7 @@ textarea {
 
 .card-image img {
   padding: 15%;
+  max-height: 60vh;
 }
 
 .u16-on-map-footer {
