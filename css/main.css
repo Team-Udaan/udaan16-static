@@ -196,8 +196,12 @@ textarea {
   padding: 5vh 0;
 }
 
-.badges img {
+.u16-badges img {
   max-height: 48px;
+}
+
+.u16-social img {
+  max-height: 30px;
 }
 
 /* end:custom */
