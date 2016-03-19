@@ -9,8 +9,8 @@ $(document).ready(function ($) {
   var $marker_url = ( is_internetExplorer11 ) ? 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.png' : 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location_1.svg';
 
   //define the basic color of your map, plus a value for saturation and brightness
-  var $main_color = '#2d313f',
-    $saturation = -20,
+  var $main_color = '#ff8a80',
+    $saturation = 0,
     $brightness = 5;
 
   //we define here the style of the map
