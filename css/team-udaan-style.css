@@ -175,7 +175,10 @@ body{
 .owl.card {
     margin: 10px;
 }
-#u16-gs-lr-carousel{
-    width: 50vw !important;
-    margin: 0 auto;
+@media only screen and (min-width: 768px) {
+    #u16-gs-lr-carousel{
+        width: 50vw !important;
+        margin: 0 auto;
+    }
 }
+
