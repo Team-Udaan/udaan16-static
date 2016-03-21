@@ -227,8 +227,23 @@ textarea {
 }
 
 .u16-social img {
-  max-height: 30px;
+  max-height: 50px;
 }
+.team-button{
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+.team-button img{
+  width: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .team-button{
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
 
 /* end:custom */
 
