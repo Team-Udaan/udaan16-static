@@ -243,7 +243,15 @@ textarea {
     bottom: 10px;
   }
 }
-
+#logo-dates{
+  position: absolute;
+  color: #0f7dae;
+  font-weight: bold;
+  font-size: 20px;
+  top: 33vh;
+  width: 100vw;
+  text-align: center;
+}
 
 /* end:custom */
 
