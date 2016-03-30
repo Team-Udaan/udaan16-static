@@ -230,18 +230,15 @@ textarea {
   max-height: 50px;
 }
 .team-button{
-  position: absolute;
-  bottom: 20px;
-  right: 50px;
+  position: absolute !important;
+  bottom: 30px !important;
+  right: 10px !important;
+}
+.team-button a{
+  margin-bottom: 5px;
 }
 .team-button img{
   width: 40px;
-}
-@media only screen and (max-width: 768px) {
-  .team-button{
-    right: 41vw;
-    bottom: 10px;
-  }
 }
 #logo-dates{
   position: absolute;
