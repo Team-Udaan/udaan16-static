@@ -4,6 +4,7 @@ var jQDoc = $(document);
 
 jQDoc.ready(function () {
   $('.main').onepage_scroll({
+    animationTime: 600,
     easing: 'ease-in-out',
     updateURL: true,
     loop: false
