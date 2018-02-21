@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Team-Udaan/udaan16-static.git"
+    "url": "git+https://github.com/bvmites/udaan16-static.git"
   },
   "keywords": [
     "Udaan",
@@ -20,9 +20,9 @@
   "author": "Dhruvin Gandhi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Team-Udaan/udaan16-static/issues"
+    "url": "https://github.com/bvmites/udaan16-static/issues"
   },
-  "homepage": "https://github.com/Team-Udaan/udaan16-static#readme",
+  "homepage": "https://github.com/bvmites/udaan16-static#readme",
   "dependencies": {
     "imagemin": "^4.0.0"
   },
